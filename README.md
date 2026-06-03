@@ -14,4 +14,3 @@ Dieses Repository enthält das öffentliche Organisationsprofil und Community-He
 - Das Profil soll knapp erklären, wofür Um:bruch steht und welche Repositories öffentlich relevant sind.
 - Neue öffentliche Repositories sollten im Profil und in `llms.txt` ergänzt werden.
 - Deutsche Endnutzertexte verwenden echte Umlaute.
-
