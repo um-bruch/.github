@@ -1,0 +1,36 @@
+# Um:bruch
+
+Canonical organization: https://github.com/um-bruch
+Website: https://um-bruch.org
+Projects page: https://um-bruch.org/projekte/
+Repository purpose: GitHub organization profile and community context for Um:bruch.
+
+Um:bruch is an independent German think tank for societal change, health-system analysis, civic technology, open research materials, and local-first software prototypes.
+
+Primary public repositories:
+
+- https://github.com/um-bruch/regressangst
+  Study and concept material on Regressangst in the German health-care system.
+- https://github.com/um-bruch/verordnungsampel
+  Research-use software draft for local checks against public German prescribing rule sets such as AM-RL, G-BA, ATC, ICD-10-GM, and PRISCUS.
+- https://github.com/um-bruch/system-medicine
+  Functional pathway-centric medical knowledge graph prototype with exclusion logic for differential diagnosis.
+- https://github.com/um-bruch/multiaxial-diagnostic-system
+  6-axis psychiatric diagnostic-system research prototype referencing DSM-5-TR, ICD-11, and ICF.
+- https://github.com/um-bruch/locuterra
+  Civic-tech concept and demonstrator for a community-oriented, location-based social network.
+
+Positioning:
+
+- Public-interest research and civic-tech prototypes.
+- Open-source code and open research material where appropriate.
+- Research, analysis, and concept work, not medical advice or certified medical software.
+- German-first content with English metadata for discoverability.
+
+Useful search phrases:
+
+- Umbruch Think Tank GitHub
+- Um:bruch re:shape health policy software
+- Umbruch Regressangst VerordnungsAmpel
+- Umbruch local-first civic tech
+- um-bruch system medicine knowledge graph
