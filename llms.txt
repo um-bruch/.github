@@ -34,3 +34,5 @@ Useful search phrases:
 - Umbruch Regressangst VerordnungsAmpel
 - Umbruch local-first civic tech
 - um-bruch system medicine knowledge graph
+
+## Last-checked: 2026-06-10

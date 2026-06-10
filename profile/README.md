@@ -33,7 +33,7 @@ Projektübersicht: [um-bruch.org/projekte](https://um-bruch.org/projekte/)
 | [regressangst](https://github.com/um-bruch/regressangst) | Studie + Konzeptpapier | Systemtheoretische Aufarbeitung der Regressangst im deutschen Gesundheitswesen, inklusive Zertifikatsfehlern, Definitionsdivergenz der Regressquote und SVR-Trias. |
 | [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | Forschungssoftware-Entwurf | Lokale ICD-10-GM/ATC-Prüfungen gegen öffentliche deutsche Verordnungsregelwerke wie AM-RL, G-BA und PRISCUS. Keine medizinische Beratung. |
 | [system-medicine](https://github.com/um-bruch/system-medicine) | Forschungsprototyp | Funktionaler, pfadzentrischer medizinischer Wissensgraph mit Ausschlusslogik für Differentialdiagnostik. |
-| [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | Forschungsprototyp | 6-Achsen-System für psychiatrische Diagnostik mit DSM-5-TR-, ICD-11- und ICF-Bezug. |
+| [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | Forschungsprototyp | 6-Achsen-Dokumentationsprototyp für psychiatrische Diagnostik mit DSM-5-TR-, ICD-11- und ICF-Bezug; Streamlit-Oberfläche und Flask-Screening-Testcenter. Kein Medizinprodukt. |
 
 ## Arbeitsprinzipien
 
