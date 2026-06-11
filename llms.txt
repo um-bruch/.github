@@ -1,3 +1,5 @@
+## Last-checked: 2026-06-11
+
 # Um:bruch
 
 Canonical organization: https://github.com/um-bruch
@@ -6,6 +8,10 @@ Projects page: https://um-bruch.org/projekte/
 Repository purpose: GitHub organization profile and community context for Um:bruch.
 
 Um:bruch is an independent German think tank for societal change, health-system analysis, civic technology, open research materials, and local-first software prototypes.
+
+## Audience
+
+Researchers, health-policy professionals, civic-tech developers, and public-interest readers looking for open analysis, reproducible research material, and local-first software prototypes in the areas of health-care systems, diagnostics, and civic technology.
 
 Primary public repositories:
 
@@ -27,12 +33,14 @@ Positioning:
 - Research, analysis, and concept work, not medical advice or certified medical software.
 - German-first content with English metadata for discoverability.
 
-Useful search phrases:
+## Search Phrases
 
-- Umbruch Think Tank GitHub
-- Um:bruch re:shape health policy software
-- Umbruch Regressangst VerordnungsAmpel
-- Umbruch local-first civic tech
-- um-bruch system medicine knowledge graph
-
-## Last-checked: 2026-06-10
+```
+Um:bruch Think Tank GitHub
+Um:bruch re:shape health policy software
+Umbruch Regressangst VerordnungsAmpel
+Umbruch local-first civic tech
+um-bruch system medicine knowledge graph
+um-bruch multiaxial diagnostic system
+um-bruch open-source Forschungssoftware
+```

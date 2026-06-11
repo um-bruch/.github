@@ -53,3 +53,5 @@ Software-Repositories verwenden offene Softwarelizenzen, Forschungs- und Textmat
 [um-bruch.org](https://um-bruch.org)
 
 [Impressum](https://um-bruch.org/impressum/)
+
+<!-- last-checked: 2026-06-11 -->
