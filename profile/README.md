@@ -17,23 +17,45 @@ Projektübersicht: [um-bruch.org/projekte](https://um-bruch.org/projekte/)
 | Forschungssoftware zu öffentlichen Verordnungsregeln prüfen | [verordnungsampel](https://github.com/um-bruch/verordnungsampel) |
 | Medizinische Wissensgraphen und Diagnostik-Prototypen ansehen | [system-medicine](https://github.com/um-bruch/system-medicine), [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) |
 | Civic-Tech-Demonstrator mit Live-Demo öffnen | [locuterra](https://github.com/um-bruch/locuterra) |
+| GitHub-Startseite und maschinenlesbaren Index prüfen | [`.github`](https://github.com/um-bruch/.github), [`llms.txt`](https://github.com/um-bruch/.github/blob/main/llms.txt) |
 
 ## Öffentliche Repositories
+
+Geprüft am **2026-06-25** gegen die öffentliche GitHub-Organisation. Dieser Index nennt nur öffentliche, aktive, nicht geforkte Repositories.
 
 ### Civic Tech
 
 | Repository | Status | Worum es geht |
 |---|---|---|
-| [locuterra](https://github.com/um-bruch/locuterra) | Konzept + Demonstrator | Gemeinwohlorientiertes, ortsbasiertes Social Network mit Plattform- und Finanzierungskonzept. [Live-Demo](https://um-bruch.github.io/locuterra/) |
+| [locuterra](https://github.com/um-bruch/locuterra) | Konzept + Next.js-Demonstrator | Gemeinwohlorientiertes, ortsbasiertes Social Network mit Plattform- und Finanzierungskonzept. [Live-Demo](https://um-bruch.github.io/locuterra/) |
 
 ### Gesundheitssystem und Diagnostik
 
 | Repository | Status | Worum es geht |
 |---|---|---|
-| [regressangst](https://github.com/um-bruch/regressangst) | Studie + Konzeptpapier | Systemtheoretische Aufarbeitung der Regressangst im deutschen Gesundheitswesen, inklusive Zertifikatsfehlern, Definitionsdivergenz der Regressquote und SVR-Trias. |
-| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | Forschungssoftware-Entwurf | Lokale ICD-10-GM/ATC-Prüfungen gegen öffentliche deutsche Verordnungsregelwerke wie AM-RL, G-BA und PRISCUS. Keine medizinische Beratung. |
-| [system-medicine](https://github.com/um-bruch/system-medicine) | Forschungsprototyp | Funktionaler, pfadzentrischer medizinischer Wissensgraph mit Ausschlusslogik für Differentialdiagnostik. |
+| [regressangst](https://github.com/um-bruch/regressangst) | Working paper + Portalkonzept | Systemtheoretische Aufarbeitung der Regressangst im deutschen Gesundheitswesen, inklusive Transparenzportal-Konzept, Zertifikatsfehlern, Definitionsdivergenz der Regressquote und SVR-Trias. |
+| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | Research-use-only Softwareentwurf | Lokale ICD-10-GM/ATC-Prüfungen gegen öffentliche deutsche Verordnungsregelwerke wie AM-RL, G-BA und PRISCUS. Keine medizinische Beratung. |
+| [system-medicine](https://github.com/um-bruch/system-medicine) | Forschungsprototyp | Funktionaler, pfadzentrischer medizinischer Wissensgraph mit Ausschlusslogik für Differentialdiagnostik und Rare-Disease-Forschung. |
 | [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | Forschungsprototyp | 6-Achsen-Dokumentationsprototyp für psychiatrische Diagnostik mit DSM-5-TR-, ICD-11- und ICF-Bezug; Streamlit-Oberfläche und Flask-Screening-Testcenter. Kein Medizinprodukt. |
+
+### Organisationsprofil
+
+| Repository | Status | Worum es geht |
+|---|---|---|
+| [`.github`](https://github.com/um-bruch/.github) | Profilrepo + LLM-Index | Diese Startseite, öffentlicher Repository-Index, Community-Kontext und [`llms.txt`](https://github.com/um-bruch/.github/blob/main/llms.txt) für Suchsysteme und LLM-Crawler. |
+
+## Suchkontext
+
+```
+Um:bruch Think Tank GitHub
+Um:bruch re:shape health policy software
+Umbruch Regressangst VerordnungsAmpel
+Umbruch local-first civic tech
+um-bruch system medicine knowledge graph
+um-bruch multiaxial diagnostic system
+um-bruch open-source Forschungssoftware
+um-bruch public-interest health policy research
+```
 
 ## Arbeitsprinzipien
 
@@ -54,4 +76,4 @@ Software-Repositories verwenden offene Softwarelizenzen, Forschungs- und Textmat
 
 [Impressum](https://um-bruch.org/impressum/)
 
-<!-- last-checked: 2026-06-11 -->
+<!-- last-checked: 2026-06-25 -->
