@@ -12,16 +12,27 @@ Dieses Repository pflegt die öffentliche GitHub-Startseite für [Um:bruch](http
 
 ## Public Repository Directory
 
-Geprüft am **2026-06-25** gegen die Live-Organisation `um-bruch`. Öffentlich, aktiv und nicht geforkt sind 6 Repositories:
+Geprüft am **2026-07-10** gegen die Live-Organisation `um-bruch`. Öffentlich, aktiv und nicht geforkt sind 6 Repositories:
 
 | Repository | Rolle |
 |---|---|
 | [`.github`](https://github.com/um-bruch/.github) | Organisationsprofil, Community-Kontext und LLM-/Crawler-Index |
-| [`regressangst`](https://github.com/um-bruch/regressangst) | Working paper zu Regressangst, Transparenzportal-Konzept und deutscher Gesundheitspolitik |
-| [`verordnungsampel`](https://github.com/um-bruch/verordnungsampel) | Research-use-only Softwareentwurf für öffentliche Verordnungsregelwerke |
-| [`system-medicine`](https://github.com/um-bruch/system-medicine) | Medizinischer Wissensgraph und Differentialdiagnostik-Forschungsprototyp |
-| [`multiaxial-diagnostic-system`](https://github.com/um-bruch/multiaxial-diagnostic-system) | 6-Achsen-Dokumentationsprototyp für psychiatrische Diagnostik, kein Medizinprodukt |
+| [`regressangst`](https://github.com/um-bruch/regressangst) | Working paper zu Regressangst, Verordnungsregressen, Transparenzportal-Konzept und deutscher Gesundheitspolitik |
+| [`verordnungsampel`](https://github.com/um-bruch/verordnungsampel) | Research-use-only Softwareentwurf für lokale ICD-10-GM-/ATC-Prüfungen gegen öffentliche Verordnungsregelwerke |
+| [`system-medicine`](https://github.com/um-bruch/system-medicine) | Forschungsprototyp für funktionale medizinische Wissensgraphen, Differentialdiagnostik und Rare-Disease-Reasoning |
+| [`multiaxial-diagnostic-system`](https://github.com/um-bruch/multiaxial-diagnostic-system) | 6-Achsen-Dokumentationsprototyp mit DSM-5-TR, ICD-11, ICF, Streamlit und Flask-Testcenter; kein Medizinprodukt |
 | [`locuterra`](https://github.com/um-bruch/locuterra) | Civic-Tech-Konzept und Next.js-Demonstrator für ortsbezogene Gemeinwohlkommunikation |
+
+## Auffindbarkeit
+
+Diese Startseite ist der öffentliche Einstieg für:
+
+- `Um:bruch Think Tank GitHub`
+- `VerordnungsAmpel ICD-10 ATC AM-RL PRISCUS`
+- `Regressangst prescribing audit recourse anxiety`
+- `functional pathway medical knowledge graph rare disease`
+- `multiaxial diagnostic system DSM-5-TR ICD-11 ICF`
+- `public-interest location based civic tech Next.js`
 
 ## Pflegehinweise
 
@@ -30,4 +41,4 @@ Geprüft am **2026-06-25** gegen die Live-Organisation `um-bruch`. Öffentlich, 
 - Medizinische und diagnostische Repositories bleiben als Forschungs-, Analyse- oder Konzeptsoftware markiert, nicht als Beratung oder Medizinprodukt.
 - Deutsche Endnutzertexte verwenden echte Umlaute.
 
-<!-- public-index-last-checked: 2026-06-25 -->
+<!-- public-index-last-checked: 2026-07-10 -->

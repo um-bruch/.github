@@ -21,7 +21,7 @@ Projektübersicht: [um-bruch.org/projekte](https://um-bruch.org/projekte/)
 
 ## Öffentliche Repositories
 
-Geprüft am **2026-06-25** gegen die öffentliche GitHub-Organisation. Dieser Index nennt nur öffentliche, aktive, nicht geforkte Repositories.
+Geprüft am **2026-07-10** gegen die öffentliche GitHub-Organisation. Dieser Index nennt nur öffentliche, aktive, nicht geforkte Repositories. Private oder interne Arbeitsstände werden hier bewusst nicht genannt.
 
 ### Civic Tech
 
@@ -33,10 +33,10 @@ Geprüft am **2026-06-25** gegen die öffentliche GitHub-Organisation. Dieser In
 
 | Repository | Status | Worum es geht |
 |---|---|---|
-| [regressangst](https://github.com/um-bruch/regressangst) | Working paper + Portalkonzept | Systemtheoretische Aufarbeitung der Regressangst im deutschen Gesundheitswesen, inklusive Transparenzportal-Konzept, Zertifikatsfehlern, Definitionsdivergenz der Regressquote und SVR-Trias. |
-| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | Research-use-only Softwareentwurf | Lokale ICD-10-GM/ATC-Prüfungen gegen öffentliche deutsche Verordnungsregelwerke wie AM-RL, G-BA und PRISCUS. Keine medizinische Beratung. |
-| [system-medicine](https://github.com/um-bruch/system-medicine) | Forschungsprototyp | Funktionaler, pfadzentrischer medizinischer Wissensgraph mit Ausschlusslogik für Differentialdiagnostik und Rare-Disease-Forschung. |
-| [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | Forschungsprototyp | 6-Achsen-Dokumentationsprototyp für psychiatrische Diagnostik mit DSM-5-TR-, ICD-11- und ICF-Bezug; Streamlit-Oberfläche und Flask-Screening-Testcenter. Kein Medizinprodukt. |
+| [regressangst](https://github.com/um-bruch/regressangst) | Working paper + Portalkonzept | Aufarbeitung von Regressangst und Verordnungsregressen im deutschen Gesundheitswesen, inklusive Health-Policy-Transparenz, PP-003-Regressportal-Konzept und reproduzierbarem Quellenkontext. |
+| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | Research-use-only Softwareentwurf | Lokale ICD-10-GM-/ATC-Prüfungen gegen öffentliche deutsche Verordnungsregelwerke wie AM-RL, G-BA und PRISCUS. Keine medizinische Beratung. |
+| [system-medicine](https://github.com/um-bruch/system-medicine) | Forschungsprototyp | Funktionaler medizinischer Wissensgraph für Rare-Disease-Differentialdiagnostik, pathway exclusion logic und biomedical graph reasoning. |
+| [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | Forschungsprototyp | 6-Achsen-Dokumentationsprototyp mit DSM-5-TR, ICD-11, ICF, Streamlit-Oberfläche und Flask-Screening-Testcenter. Kein Medizinprodukt. |
 
 ### Organisationsprofil
 
@@ -50,12 +50,22 @@ Geprüft am **2026-06-25** gegen die öffentliche GitHub-Organisation. Dieser In
 Um:bruch Think Tank GitHub
 Um:bruch re:shape health policy software
 Umbruch Regressangst VerordnungsAmpel
+VerordnungsAmpel ICD-10 ATC AM-RL PRISCUS
+prescribing audit recourse anxiety Germany
 Umbruch local-first civic tech
 um-bruch system medicine knowledge graph
+functional pathway medical knowledge graph rare disease
 um-bruch multiaxial diagnostic system
+DSM-5-TR ICD-11 ICF documentation prototype
+public-interest location based civic tech Next.js
 um-bruch open-source Forschungssoftware
 um-bruch public-interest health policy research
 ```
+
+## Research-Use Boundary
+
+> [!IMPORTANT]
+> Die medizinischen und diagnostischen Repositories sind Forschungs-, Analyse- und Konzeptsoftware. Sie ersetzen keine ärztliche Beratung, keine Leitlinie, keine regulatorisch geprüfte Medizinsoftware und keine produktive Versorgungssystem-Entscheidung.
 
 ## Arbeitsprinzipien
 
@@ -76,4 +86,4 @@ Software-Repositories verwenden offene Softwarelizenzen, Forschungs- und Textmat
 
 [Impressum](https://um-bruch.org/impressum/)
 
-<!-- last-checked: 2026-06-25 -->
+<!-- last-checked: 2026-07-10 -->

@@ -1,4 +1,4 @@
-## Last-checked: 2026-06-25
+## Last-checked: 2026-07-10
 
 # Um:bruch
 
@@ -6,7 +6,7 @@ Canonical organization: https://github.com/um-bruch
 Website: https://um-bruch.org
 Projects page: https://um-bruch.org/projekte/
 Repository purpose: GitHub organization profile and community context for Um:bruch.
-Public active repository count: 6
+Public active repository count: 6, including the public profile repository
 Public profile repository: https://github.com/um-bruch/.github
 
 Um:bruch is an independent German think tank for societal change, health-system analysis, civic technology, open research materials, and local-first software prototypes.
@@ -20,13 +20,13 @@ Primary public repositories:
 - https://github.com/um-bruch/.github
   Organization profile, public repository directory, community context, and llms.txt for search systems and LLM crawlers.
 - https://github.com/um-bruch/regressangst
-  Working-paper and concept material on Regressangst, prescribing-audit recourse anxiety, and transparency infrastructure in the German health-care system.
+  Working-paper and concept material on Regressangst, prescribing-audit recourse anxiety, health-policy transparency, and the PP-003 Regress portal concept in the German health-care system.
 - https://github.com/um-bruch/verordnungsampel
-  Research-use software draft for local checks against public German prescribing rule sets such as AM-RL, G-BA, ATC, ICD-10-GM, and PRISCUS.
+  Research-use software draft for local ICD-10-GM and ATC checks against public German prescribing rule sets such as AM-RL, G-BA, and PRISCUS.
 - https://github.com/um-bruch/system-medicine
-  Research-only functional pathway-centric medical knowledge graph prototype with exclusion logic for differential diagnosis and rare-disease reasoning.
+  Research-only functional pathway medical knowledge graph prototype for rare-disease differential diagnosis, pathway exclusion logic, and biomedical graph reasoning.
 - https://github.com/um-bruch/multiaxial-diagnostic-system
-  Research-use-only 6-axis psychiatric diagnostic-system prototype referencing DSM-5-TR, ICD-11, ICF, Streamlit, and a Flask screening Testcenter; not a medical device.
+  Research-use-only 6-axis psychiatric documentation prototype referencing DSM-5-TR, ICD-11, ICF, Streamlit, and a Flask screening Testcenter; not a medical device.
 - https://github.com/um-bruch/locuterra
   Civic-tech concept and Next.js demonstrator for a public-interest, location-based social network.
 
@@ -43,9 +43,14 @@ Positioning:
 Um:bruch Think Tank GitHub
 Um:bruch re:shape health policy software
 Umbruch Regressangst VerordnungsAmpel
+VerordnungsAmpel ICD-10 ATC AM-RL PRISCUS
+prescribing audit recourse anxiety Germany
 Umbruch local-first civic tech
 um-bruch system medicine knowledge graph
+functional pathway medical knowledge graph rare disease
 um-bruch multiaxial diagnostic system
+DSM-5-TR ICD-11 ICF documentation prototype
+public-interest location based civic tech Next.js
 um-bruch open-source Forschungssoftware
 um-bruch public-interest health policy research
 um-bruch github organization profile llms.txt
