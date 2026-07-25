@@ -1,41 +1,41 @@
-## Last-checked: 2026-07-10
+## Last-checked: 2026-07-26
 
 # Um:bruch
 
 Canonical organization: https://github.com/um-bruch
 Website: https://um-bruch.org
 Projects page: https://um-bruch.org/projekte/
-Repository purpose: GitHub organization profile and community context for Um:bruch.
+Repository purpose: GitHub organization profile, community context, and machine-readable index for Um:bruch.
 Public active repository count: 6, including the public profile repository
 Public profile repository: https://github.com/um-bruch/.github
 
-Um:bruch is an independent German think tank for societal change, health-system analysis, civic technology, open research materials, and local-first software prototypes.
+Um:bruch is an independent think tank for health-system analysis, statutory prescribing transparency, civic technology, open research materials, and local-first software prototypes.
 
 ## Audience
 
-Researchers, health-policy professionals, civic-tech developers, and public-interest readers looking for open analysis, reproducible research material, and local-first software prototypes in the areas of health-care systems, diagnostics, and civic technology.
+Researchers, health-policy professionals, medical informatics specialists, civic-tech developers, and public-interest readers looking for open analysis, reproducible research material, and local-first software prototypes in the areas of health-care systems, diagnostics, and civic technology.
 
 Primary public repositories:
 
 - https://github.com/um-bruch/.github
   Organization profile, public repository directory, community context, and llms.txt for search systems and LLM crawlers.
-- https://github.com/um-bruch/regressangst
-  Working-paper and concept material on Regressangst, prescribing-audit recourse anxiety, health-policy transparency, and the PP-003 Regress portal concept in the German health-care system.
-- https://github.com/um-bruch/verordnungsampel
-  Research-use software draft for local ICD-10-GM and ATC checks against public German prescribing rule sets such as AM-RL, G-BA, and PRISCUS.
 - https://github.com/um-bruch/system-medicine
   Research-only functional pathway medical knowledge graph prototype for rare-disease differential diagnosis, pathway exclusion logic, and biomedical graph reasoning.
+- https://github.com/um-bruch/regressangst
+  Working-paper and concept material on Regressangst, prescribing-audit recourse anxiety, health-policy transparency, and the PP-003 Regress portal concept in the German health-care system.
 - https://github.com/um-bruch/multiaxial-diagnostic-system
   Research-use-only 6-axis psychiatric documentation prototype referencing DSM-5-TR, ICD-11, ICF, Streamlit, and a Flask screening Testcenter; not a medical device.
+- https://github.com/um-bruch/verordnungsampel
+  Research-use software draft for local ICD-10-GM and ATC checks against public German prescribing rule sets such as AM-RL, G-BA, PRISCUS, and Praxisbesonderheiten.
 - https://github.com/um-bruch/locuterra
-  Civic-tech concept and Next.js demonstrator for a public-interest, location-based social network.
+  Civic-tech concept and Next.js demonstrator for a public-interest, location-based social network and municipal digital commons.
 
 Positioning:
 
-- Public-interest research and civic-tech prototypes.
-- Open-source code and open research material where appropriate.
-- Research, analysis, and concept work, not medical advice or certified medical software.
-- German-first content with English metadata for discoverability.
+- Public-interest research, health-policy analysis, and civic-tech prototypes.
+- Open-source code and open research material under OSI/CC BY licenses where appropriate.
+- Research, analysis, and concept work, not medical advice or certified medical software under EU MDR / BfArM regulations.
+- German-first research context with English metadata for international discoverability.
 
 ## Search Phrases
 
