@@ -13,15 +13,15 @@ Dieses Repository pflegt die öffentliche GitHub-Startseite für [Um:bruch](http
 
 ## Public Repository Directory
 
-Geprüft am **2026-07-26** gegen die Live-Organisation `um-bruch`. Öffentlich, aktiv und nicht geforkt sind 6 Repositories:
+Geprüft am **2026-07-27** gegen die Live-Organisation `um-bruch`. Öffentlich, aktiv und nicht geforkt sind 6 Repositories:
 
 | Repository | Branch | Letzter Push | Rolle & Abdeckung |
 |---|---:|---:|---|
-| [`.github`](https://github.com/um-bruch/.github) | `main` | 2026-07-26 | Organisationsprofil, Community-Kontext, `llms.txt` und öffentliche Startseite |
-| [`system-medicine`](https://github.com/um-bruch/system-medicine) | `main` | 2026-07-25 | Forschungsprototyp für funktionale medizinische Wissensgraphen, Differentialdiagnostik & Seltene Erkrankungen |
-| [`regressangst`](https://github.com/um-bruch/regressangst) | `master` | 2026-07-25 | Working Paper ST-001 zu Regressangst, Verordnungsregressen, Transparenz & PP-003 Portalkonzept |
+| [`.github`](https://github.com/um-bruch/.github) | `main` | 2026-07-27 | Organisationsprofil, Community-Kontext, `llms.txt` und öffentliche Startseite |
+| [`system-medicine`](https://github.com/um-bruch/system-medicine) | `main` | 2026-07-26 | Forschungsprototyp für funktionale medizinische Wissensgraphen, Differentialdiagnostik & Seltene Erkrankungen |
+| [`verordnungsampel`](https://github.com/um-bruch/verordnungsampel) | `main` | 2026-07-26 | Research-use Softwareentwurf für lokale ICD-10-GM-/ATC-Prüfungen gegen deutsche Verordnungsregelwerke |
+| [`regressangst`](https://github.com/um-bruch/regressangst) | `master` | 2026-07-26 | Working Paper ST-001 zu Regressangst, Verordnungsregressen, Transparenz & PP-003 Portalkonzept |
 | [`multiaxial-diagnostic-system`](https://github.com/um-bruch/multiaxial-diagnostic-system) | `master` | 2026-07-23 | 6-Achsen-Dokumentationsprototyp mit DSM-5-TR, ICD-11, ICF, Streamlit & Flask-Testcenter |
-| [`verordnungsampel`](https://github.com/um-bruch/verordnungsampel) | `main` | 2026-07-23 | Research-use Softwareentwurf für lokale ICD-10-GM-/ATC-Prüfungen gegen deutsche Verordnungsregelwerke |
 | [`locuterra`](https://github.com/um-bruch/locuterra) | `master` | 2026-07-23 | Civic-Tech-Konzept und Next.js-Demonstrator für ortsbezogene Gemeinwohlkommunikation |
 
 ## Auffindbarkeit
@@ -42,4 +42,4 @@ Diese Startseite ist der öffentliche Einstieg für:
 - Medizinische und diagnostische Repositories bleiben als Forschungs-, Analyse- oder Konzeptsoftware markiert, nicht als Beratung oder Medizinprodukt.
 - Deutsche Endnutzertexte verwenden echte Umlaute.
 
-<!-- public-index-last-checked: 2026-07-26 -->
+<!-- public-index-last-checked: 2026-07-27 -->

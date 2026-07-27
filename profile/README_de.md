@@ -1,6 +1,6 @@
 # Um:bruch
 
-<!-- public-index-last-checked: 2026-07-26 -->
+<!-- public-index-last-checked: 2026-07-27 -->
 
 <p align="center">
   <a href="https://github.com/um-bruch"><img src="https://img.shields.io/badge/GitHub-um--bruch-181717?style=for-the-badge&logo=github" alt="GitHub Org" /></a>
@@ -71,7 +71,7 @@ graph TD
 
 ## Öffentliches Repository-Verzeichnis
 
-Dieses Verzeichnis listet bewusst nur öffentliche Repositories. Alle 6 öffentlichen, aktiven, nicht geforkten Repositories wurden am **26.07.2026** gegen die Live-Organisation `um-bruch` verifiziert.
+Dieses Verzeichnis listet bewusst nur öffentliche Repositories. Alle 6 öffentlichen, aktiven, nicht geforkten Repositories wurden am **27.07.2026** gegen die Live-Organisation `um-bruch` verifiziert.
 
 | Repository | Tech-Stack & Lizenz | Beschreibung |
 |---|---|---|
@@ -86,12 +86,12 @@ Dieses Verzeichnis listet bewusst nur öffentliche Repositories. Alle 6 öffentl
 
 | Repository | Default-Branch | Letzter Push | Öffentliche Rolle |
 |---|---:|---:|---|
-| [system-medicine](https://github.com/um-bruch/system-medicine) | `main` | 25.07.2026 | Aktiver Medizininformatik-Prototyp |
-| [regressangst](https://github.com/um-bruch/regressangst) | `master` | 25.07.2026 | Aktives gesundheitspolitisches Forschungs-Repo |
+| [system-medicine](https://github.com/um-bruch/system-medicine) | `main` | 26.07.2026 | Aktiver Medizininformatik-Prototyp |
+| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | `main` | 26.07.2026 | Aktiver Verordnungsprüfer-Prototyp |
+| [regressangst](https://github.com/um-bruch/regressangst) | `master` | 26.07.2026 | Aktives gesundheitspolitisches Forschungs-Repo |
 | [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | `master` | 23.07.2026 | Aktiver Psychiatrie-Dokumentationsprototyp |
-| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | `main` | 23.07.2026 | Aktiver Verordnungsprüfer-Prototyp |
 | [locuterra](https://github.com/um-bruch/locuterra) | `master` | 23.07.2026 | Aktiver Civic-Tech-Demonstrator |
-| [`.github`](https://github.com/um-bruch/.github) | `main` | 26.07.2026 | Aktives Organisationsprofil & Index |
+| [`.github`](https://github.com/um-bruch/.github) | `main` | 27.07.2026 | Aktives Organisationsprofil & Index |
 
 ## Forschungsvorbehalt & Nutzungsgrenzen
 
@@ -150,4 +150,4 @@ Um:bruch arbeitet im Verbund mit einem Netz aus Open-Science- und Local-First-So
 - Website: [um-bruch.org](https://um-bruch.org)
 - Impressum: [um-bruch.org/impressum](https://um-bruch.org/impressum/)
 
-<!-- last-checked: 2026-07-26 -->
+<!-- last-checked: 2026-07-27 -->

@@ -1,6 +1,6 @@
 # Um:bruch
 
-<!-- public-index-last-checked: 2026-07-26 -->
+<!-- public-index-last-checked: 2026-07-27 -->
 
 <p align="center">
   <a href="https://github.com/um-bruch"><img src="https://img.shields.io/badge/GitHub-um--bruch-181717?style=for-the-badge&logo=github" alt="GitHub Org" /></a>
@@ -71,7 +71,7 @@ graph TD
 
 ## Public Repository Directory
 
-This public directory intentionally lists public repositories only. All 6 public, active, non-forked repositories were verified against the live `um-bruch` organization on **2026-07-26**.
+This public directory intentionally lists public repositories only. All 6 public, active, non-forked repositories were verified against the live `um-bruch` organization on **2026-07-27**.
 
 | Repository | Tech Stack & License | Description |
 |---|---|---|
@@ -86,12 +86,12 @@ This public directory intentionally lists public repositories only. All 6 public
 
 | Repository | Default Branch | Last Public Push | Public Role |
 |---|---:|---:|---|
-| [system-medicine](https://github.com/um-bruch/system-medicine) | `main` | 2026-07-25 | Active medical informatics prototype |
-| [regressangst](https://github.com/um-bruch/regressangst) | `master` | 2026-07-25 | Active health-policy research repository |
+| [system-medicine](https://github.com/um-bruch/system-medicine) | `main` | 2026-07-26 | Active medical informatics prototype |
+| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | `main` | 2026-07-26 | Active prescribing rule checker prototype |
+| [regressangst](https://github.com/um-bruch/regressangst) | `master` | 2026-07-26 | Active health-policy research repository |
 | [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | `master` | 2026-07-23 | Active psychiatric documentation prototype |
-| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | `main` | 2026-07-23 | Active prescribing rule checker prototype |
 | [locuterra](https://github.com/um-bruch/locuterra) | `master` | 2026-07-23 | Active civic tech demonstrator |
-| [`.github`](https://github.com/um-bruch/.github) | `main` | 2026-07-26 | Active organization profile and index |
+| [`.github`](https://github.com/um-bruch/.github) | `main` | 2026-07-27 | Active organization profile and index |
 
 ## Research-Use Boundary
 
@@ -150,4 +150,4 @@ Um:bruch collaborates within a broader network of local-first software and resea
 - Website: [um-bruch.org](https://um-bruch.org)
 - Imprint: [um-bruch.org/impressum](https://um-bruch.org/impressum/)
 
-<!-- last-checked: 2026-07-26 -->
+<!-- last-checked: 2026-07-27 -->
