@@ -1,6 +1,6 @@
 # Um:bruch
 
-<!-- public-index-last-checked: 2026-07-27 -->
+<!-- public-index-last-checked: 2026-08-13 -->
 
 <p align="center">
   <a href="https://github.com/um-bruch"><img src="https://img.shields.io/badge/GitHub-um--bruch-181717?style=for-the-badge&logo=github" alt="GitHub Org" /></a>
@@ -71,14 +71,14 @@ graph TD
 
 ## Öffentliches Repository-Verzeichnis
 
-Dieses Verzeichnis listet bewusst nur öffentliche Repositories. Alle 6 öffentlichen, aktiven, nicht geforkten Repositories wurden am **27.07.2026** gegen die Live-Organisation `um-bruch` verifiziert.
+Dieses Verzeichnis listet bewusst nur öffentliche Repositories. Alle 6 öffentlichen, aktiven, nicht geforkten Repositories wurden am **13.08.2026** gegen die Live-Organisation `um-bruch` verifiziert.
 
 | Repository | Tech-Stack & Lizenz | Beschreibung |
 |---|---|---|
 | [regressangst](https://github.com/um-bruch/regressangst) | Markdown, LaTeX, Research Data · CC BY 4.0 | Working Paper ST-001 zu Regressangst, Verordnungsregressen, Transparenz im Gesundheitswesen und dem PP-003 Regressportal-Konzept |
 | [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | Python 3.10+, PySide6, SQLite, PWA · GPL-3.0 | Research-use Softwareentwurf für lokale ICD-10-GM / ATC Prüfungen gegen deutsche Verordnungsregelwerke (AM-RL, G-BA, PRISCUS, Praxisbesonderheiten) |
 | [system-medicine](https://github.com/um-bruch/system-medicine) | Python 3.10+, PySide6, SQLite, NetworkX · MIT | Forschungsprototyp für funktionale medizinische Wissensgraphen, Differentialdiagnostik bei Seltenen Erkrankungen und Ausschlusslogik |
-| [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | Python 3.10+, Streamlit, Flask, SQLite · MIT | 6-Achsen-Dokumentationsprototyp mit DSM-5-TR, ICD-11, ICF, HiTOP, Streamlit-Oberfläche und Flask-Screening-Testcenter (kein Medizinprodukt) |
+| [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | TeX, Python 3.10+, Streamlit, Flask, SQLite · MIT | 6-Achsen-Dokumentationsprototyp mit DSM-5-TR, ICD-11, ICF, HiTOP, Streamlit-Oberfläche und Flask-Screening-Testcenter (kein Medizinprodukt) |
 | [locuterra](https://github.com/um-bruch/locuterra) | TypeScript, React, Next.js, PWA, TailwindCSS · MIT | Open-Source-Konzept und Next.js-Demonstrator für ein gemeinwohlorientiertes, ortsbasiertes soziales Netzwerk für Kommunen |
 | [`.github`](https://github.com/um-bruch/.github) | Markdown, GFM, `llms.txt` | Organisationsprofil, Repository-Verzeichnis, Community-Richtlinien und maschinenlesbarer `llms.txt`-Kontext |
 
@@ -86,12 +86,12 @@ Dieses Verzeichnis listet bewusst nur öffentliche Repositories. Alle 6 öffentl
 
 | Repository | Default-Branch | Letzter Push | Öffentliche Rolle |
 |---|---:|---:|---|
-| [system-medicine](https://github.com/um-bruch/system-medicine) | `main` | 26.07.2026 | Aktiver Medizininformatik-Prototyp |
-| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | `main` | 26.07.2026 | Aktiver Verordnungsprüfer-Prototyp |
-| [regressangst](https://github.com/um-bruch/regressangst) | `master` | 26.07.2026 | Aktives gesundheitspolitisches Forschungs-Repo |
-| [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | `master` | 23.07.2026 | Aktiver Psychiatrie-Dokumentationsprototyp |
+| [system-medicine](https://github.com/um-bruch/system-medicine) | `main` | 05.08.2026 | Aktiver Medizininformatik-Prototyp |
+| [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | `master` | 05.08.2026 | Aktiver Psychiatrie-Dokumentationsprototyp |
+| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | `main` | 05.08.2026 | Aktiver Verordnungsprüfer-Prototyp |
+| [regressangst](https://github.com/um-bruch/regressangst) | `master` | 27.07.2026 | Aktives gesundheitspolitisches Forschungs-Repo |
 | [locuterra](https://github.com/um-bruch/locuterra) | `master` | 23.07.2026 | Aktiver Civic-Tech-Demonstrator |
-| [`.github`](https://github.com/um-bruch/.github) | `main` | 27.07.2026 | Aktives Organisationsprofil & Index |
+| [`.github`](https://github.com/um-bruch/.github) | `main` | 13.08.2026 | Aktives Organisationsprofil & Index |
 
 ## Forschungsvorbehalt & Nutzungsgrenzen
 
@@ -114,6 +114,7 @@ Dieses Verzeichnis listet bewusst nur öffentliche Repositories. Alle 6 öffentl
 
 ```
 Um:bruch Think Tank GitHub
+Um:bruch health policy research software
 Um:bruch re:shape health policy software
 Umbruch Regressangst VerordnungsAmpel
 VerordnungsAmpel ICD-10 ATC AM-RL PRISCUS
@@ -121,6 +122,7 @@ prescribing audit recourse anxiety Germany
 Umbruch local-first civic tech
 um-bruch system medicine knowledge graph
 functional pathway medical knowledge graph rare disease
+German prescribing transparency research
 um-bruch multiaxial diagnostic system
 DSM-5-TR ICD-11 ICF documentation prototype
 public-interest location based civic tech Next.js
@@ -150,4 +152,4 @@ Um:bruch arbeitet im Verbund mit einem Netz aus Open-Science- und Local-First-So
 - Website: [um-bruch.org](https://um-bruch.org)
 - Impressum: [um-bruch.org/impressum](https://um-bruch.org/impressum/)
 
-<!-- last-checked: 2026-07-27 -->
+<!-- last-checked: 2026-08-13 -->

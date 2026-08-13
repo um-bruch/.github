@@ -1,6 +1,6 @@
 # Um:bruch
 
-<!-- public-index-last-checked: 2026-07-27 -->
+<!-- public-index-last-checked: 2026-08-13 -->
 
 <p align="center">
   <a href="https://github.com/um-bruch"><img src="https://img.shields.io/badge/GitHub-um--bruch-181717?style=for-the-badge&logo=github" alt="GitHub Org" /></a>
@@ -71,14 +71,14 @@ graph TD
 
 ## Public Repository Directory
 
-This public directory intentionally lists public repositories only. All 6 public, active, non-forked repositories were verified against the live `um-bruch` organization on **2026-07-27**.
+This public directory intentionally lists public repositories only. All 6 public, active, non-forked repositories were verified against the live `um-bruch` organization on **2026-08-13**.
 
 | Repository | Tech Stack & License | Description |
 |---|---|---|
 | [regressangst](https://github.com/um-bruch/regressangst) | Markdown, LaTeX, Research Data · CC BY 4.0 | Working paper ST-001 on German statutory prescribing-audit recourse anxiety, health-care system transparency, and the PP-003 Regress portal concept |
 | [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | Python 3.10+, PySide6, SQLite, PWA · GPL-3.0 | Research-use software draft for local ICD-10-GM / ATC checks against German statutory prescribing rule sets (AM-RL, G-BA, PRISCUS, Praxisbesonderheiten) |
 | [system-medicine](https://github.com/um-bruch/system-medicine) | Python 3.10+, PySide6, SQLite, NetworkX · MIT | Research-only functional pathway medical knowledge graph for rare-disease differential diagnosis, pathway exclusion logic, and biomedical graph reasoning |
-| [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | Python 3.10+, Streamlit, Flask, SQLite · MIT | Research-use-only 6-axis psychiatric documentation prototype referencing DSM-5-TR, ICD-11, ICF, HiTOP, Streamlit workspace, and Flask screening testcenter |
+| [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | TeX, Python 3.10+, Streamlit, Flask, SQLite · MIT | Research-use-only 6-axis psychiatric documentation prototype referencing DSM-5-TR, ICD-11, ICF, HiTOP, Streamlit workspace, and Flask screening testcenter |
 | [locuterra](https://github.com/um-bruch/locuterra) | TypeScript, React, Next.js, PWA, TailwindCSS · MIT | Open-source concept and Next.js demonstrator for a public-interest, location-based civic social network and digital commons for municipalities |
 | [`.github`](https://github.com/um-bruch/.github) | Markdown, GFM, `llms.txt` | Organization landing page, repository directory, community guidelines, and machine-readable `llms.txt` context |
 
@@ -86,12 +86,12 @@ This public directory intentionally lists public repositories only. All 6 public
 
 | Repository | Default Branch | Last Public Push | Public Role |
 |---|---:|---:|---|
-| [system-medicine](https://github.com/um-bruch/system-medicine) | `main` | 2026-07-26 | Active medical informatics prototype |
-| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | `main` | 2026-07-26 | Active prescribing rule checker prototype |
-| [regressangst](https://github.com/um-bruch/regressangst) | `master` | 2026-07-26 | Active health-policy research repository |
-| [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | `master` | 2026-07-23 | Active psychiatric documentation prototype |
+| [system-medicine](https://github.com/um-bruch/system-medicine) | `main` | 2026-08-05 | Active medical informatics prototype |
+| [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | `master` | 2026-08-05 | Active psychiatric documentation prototype |
+| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | `main` | 2026-08-05 | Active prescribing rule checker prototype |
+| [regressangst](https://github.com/um-bruch/regressangst) | `master` | 2026-07-27 | Active health-policy research repository |
 | [locuterra](https://github.com/um-bruch/locuterra) | `master` | 2026-07-23 | Active civic tech demonstrator |
-| [`.github`](https://github.com/um-bruch/.github) | `main` | 2026-07-27 | Active organization profile and index |
+| [`.github`](https://github.com/um-bruch/.github) | `main` | 2026-08-13 | Active organization profile and index |
 
 ## Research-Use Boundary
 
@@ -114,6 +114,7 @@ This public directory intentionally lists public repositories only. All 6 public
 
 ```
 Um:bruch Think Tank GitHub
+Um:bruch health policy research software
 Um:bruch re:shape health policy software
 Umbruch Regressangst VerordnungsAmpel
 VerordnungsAmpel ICD-10 ATC AM-RL PRISCUS
@@ -121,6 +122,7 @@ prescribing audit recourse anxiety Germany
 Umbruch local-first civic tech
 um-bruch system medicine knowledge graph
 functional pathway medical knowledge graph rare disease
+German prescribing transparency research
 um-bruch multiaxial diagnostic system
 DSM-5-TR ICD-11 ICF documentation prototype
 public-interest location based civic tech Next.js
@@ -150,4 +152,4 @@ Um:bruch collaborates within a broader network of local-first software and resea
 - Website: [um-bruch.org](https://um-bruch.org)
 - Imprint: [um-bruch.org/impressum](https://um-bruch.org/impressum/)
 
-<!-- last-checked: 2026-07-27 -->
+<!-- last-checked: 2026-08-13 -->
