@@ -1,4 +1,4 @@
-## Last-checked: 2026-08-13
+## Last-checked: 2026-08-22
 
 # Um:bruch
 
@@ -20,7 +20,7 @@ Primary public repositories:
 - https://github.com/um-bruch/.github
   Organization profile, public repository directory, community context, and llms.txt for search systems and LLM crawlers.
 - https://github.com/um-bruch/system-medicine
-  Research-only functional pathway medical knowledge graph prototype for rare-disease differential diagnosis, pathway exclusion logic, and biomedical graph reasoning.
+  Research-only functional pathway medical knowledge graph prototype for rare-disease differential diagnosis, pathway exclusion logic, biomedical graph reasoning, and healthcare research software.
 - https://github.com/um-bruch/regressangst
   Working-paper and concept material on Regressangst, prescribing-audit recourse anxiety, health-policy transparency, and the PP-003 Regress portal concept in the German health-care system.
 - https://github.com/um-bruch/multiaxial-diagnostic-system
@@ -49,6 +49,8 @@ prescribing audit recourse anxiety Germany
 Umbruch local-first civic tech
 um-bruch system medicine knowledge graph
 functional pathway medical knowledge graph rare disease
+rare disease differential diagnosis knowledge graph
+German healthcare research software local-first
 German prescribing transparency research
 um-bruch multiaxial diagnostic system
 DSM-5-TR ICD-11 ICF documentation prototype

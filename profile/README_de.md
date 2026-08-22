@@ -1,6 +1,6 @@
 # Um:bruch
 
-<!-- public-index-last-checked: 2026-08-13 -->
+<!-- public-index-last-checked: 2026-08-22 -->
 
 <p align="center">
   <a href="https://github.com/um-bruch"><img src="https://img.shields.io/badge/GitHub-um--bruch-181717?style=for-the-badge&logo=github" alt="GitHub Org" /></a>
@@ -71,7 +71,7 @@ graph TD
 
 ## Öffentliches Repository-Verzeichnis
 
-Dieses Verzeichnis listet bewusst nur öffentliche Repositories. Alle 6 öffentlichen, aktiven, nicht geforkten Repositories wurden am **13.08.2026** gegen die Live-Organisation `um-bruch` verifiziert.
+Dieses Verzeichnis listet bewusst nur öffentliche Repositories. Alle 6 öffentlichen, aktiven, nicht geforkten Repositories wurden am **22.08.2026** gegen die Live-Organisation `um-bruch` verifiziert.
 
 | Repository | Tech-Stack & Lizenz | Beschreibung |
 |---|---|---|
@@ -86,9 +86,9 @@ Dieses Verzeichnis listet bewusst nur öffentliche Repositories. Alle 6 öffentl
 
 | Repository | Default-Branch | Letzter Push | Öffentliche Rolle |
 |---|---:|---:|---|
-| [system-medicine](https://github.com/um-bruch/system-medicine) | `main` | 05.08.2026 | Aktiver Medizininformatik-Prototyp |
+| [system-medicine](https://github.com/um-bruch/system-medicine) | `main` | 21.08.2026 | Aktiver Medizininformatik-Prototyp |
+| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | `main` | 20.08.2026 | Aktiver Verordnungsprüfer-Prototyp |
 | [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | `master` | 05.08.2026 | Aktiver Psychiatrie-Dokumentationsprototyp |
-| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | `main` | 05.08.2026 | Aktiver Verordnungsprüfer-Prototyp |
 | [regressangst](https://github.com/um-bruch/regressangst) | `master` | 27.07.2026 | Aktives gesundheitspolitisches Forschungs-Repo |
 | [locuterra](https://github.com/um-bruch/locuterra) | `master` | 23.07.2026 | Aktiver Civic-Tech-Demonstrator |
 | [`.github`](https://github.com/um-bruch/.github) | `main` | 13.08.2026 | Aktives Organisationsprofil & Index |
@@ -122,6 +122,8 @@ prescribing audit recourse anxiety Germany
 Umbruch local-first civic tech
 um-bruch system medicine knowledge graph
 functional pathway medical knowledge graph rare disease
+rare disease differential diagnosis knowledge graph
+German healthcare research software local-first
 German prescribing transparency research
 um-bruch multiaxial diagnostic system
 DSM-5-TR ICD-11 ICF documentation prototype
@@ -152,4 +154,4 @@ Um:bruch arbeitet im Verbund mit einem Netz aus Open-Science- und Local-First-So
 - Website: [um-bruch.org](https://um-bruch.org)
 - Impressum: [um-bruch.org/impressum](https://um-bruch.org/impressum/)
 
-<!-- last-checked: 2026-08-13 -->
+<!-- last-checked: 2026-08-22 -->
