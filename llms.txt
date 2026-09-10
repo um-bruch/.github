@@ -1,4 +1,4 @@
-## Last-checked: 2026-08-22
+## Last-checked: 2026-09-10
 
 # Um:bruch
 
@@ -6,36 +6,56 @@ Canonical organization: https://github.com/um-bruch
 Website: https://um-bruch.org
 Projects page: https://um-bruch.org/projekte/
 Repository purpose: GitHub organization profile, community context, and machine-readable index for Um:bruch.
-Public active repository count: 6, including the public profile repository
+Public active repository count: 6 total (5 research and software repositories plus 1 central organization profile).
 Public profile repository: https://github.com/um-bruch/.github
 
-Um:bruch is an independent think tank for health-system analysis, statutory prescribing transparency, civic technology, open research materials, and local-first software prototypes.
+Um:bruch is an independent think tank and development lab for health-system analysis, statutory prescribing transparency, rare-disease pathway logic, open research materials, and local-first public-interest software prototypes.
 
 ## Audience
 
-Researchers, health-policy professionals, medical informatics specialists, civic-tech developers, and public-interest readers looking for open analysis, reproducible research material, and local-first software prototypes in the areas of health-care systems, diagnostics, and civic technology.
+Researchers, health-policy professionals, medical informatics specialists, civic-tech developers, and public-interest readers looking for open analysis, reproducible research material, and local-first software prototypes in the areas of healthcare systems, diagnostics, and civic technology.
 
-Primary public repositories:
+## Primary Public Repositories
+
+- https://github.com/um-bruch/verordnungsampel
+  Local-first prescribing compliance & budget traffic-light system for statutory health insurance in Germany. Validates ICD-10-GM / ATC pairs against AM-RL, G-BA decisions, PRISCUS 2.0, and Heilmittelkatalog budgets. Python 3.10+, PySide6, SQLite, PWA companion. Last public push: 2026-08-20.
+
+- https://github.com/um-bruch/locuterra
+  Open-source concept and interactive Next.js demonstrator for a public-interest, location-based civic social network and digital commons for municipalities with synthetic district demo data (Grüntal). TypeScript, React, Next.js, TailwindCSS, PWA. Last public push: 2026-08-25.
+
+- https://github.com/um-bruch/system-medicine
+  Research-only functional pathway medical knowledge graph prototype for rare-disease differential diagnosis, pathway exclusion logic, biomedical graph reasoning, and healthcare research software. Python 3.10+, PySide6, SQLite, NetworkX. Permanent DOI: 10.5281/zenodo.20101507. Last public push: 2026-08-21.
+
+- https://github.com/um-bruch/multiaxial-diagnostic-system
+  Research-use-only 6-axis psychiatric documentation prototype referencing DSM-5-TR, ICD-11, ICF, HiTOP, TeX documentation, Streamlit workspace, and Flask screening testcenter; not a medical device. Permanent DOI: 10.5281/zenodo.18736725. Last public push: 2026-08-05.
+
+- https://github.com/um-bruch/regressangst
+  Working-paper and concept material on Regressangst, statutory prescribing-audit recourse anxiety, healthcare policy transparency, and the PP-003 Regress portal concept in the German healthcare system. Last public push: 2026-07-27.
 
 - https://github.com/um-bruch/.github
-  Organization profile, public repository directory, community context, and llms.txt for search systems and LLM crawlers.
-- https://github.com/um-bruch/system-medicine
-  Research-only functional pathway medical knowledge graph prototype for rare-disease differential diagnosis, pathway exclusion logic, biomedical graph reasoning, and healthcare research software.
-- https://github.com/um-bruch/regressangst
-  Working-paper and concept material on Regressangst, prescribing-audit recourse anxiety, health-policy transparency, and the PP-003 Regress portal concept in the German health-care system.
-- https://github.com/um-bruch/multiaxial-diagnostic-system
-  Research-use-only 6-axis psychiatric documentation prototype referencing DSM-5-TR, ICD-11, ICF, TeX documentation, Streamlit, and a Flask screening Testcenter; not a medical device.
-- https://github.com/um-bruch/verordnungsampel
-  Research-use software draft for local ICD-10-GM and ATC checks against public German prescribing rule sets such as AM-RL, G-BA, PRISCUS, and Praxisbesonderheiten.
-- https://github.com/um-bruch/locuterra
-  Civic-tech concept and Next.js demonstrator for a public-interest, location-based social network and municipal digital commons.
+  Organization profile, public repository directory, community health files, automated parity test suite, and machine-readable llms.txt context for search systems and LLM crawlers. Last public push: 2026-09-10.
 
-Positioning:
+## Positioning & Guardrails
 
 - Public-interest research, health-policy analysis, and civic-tech prototypes.
 - Open-source code and open research material under OSI/CC BY licenses where appropriate.
-- Research, analysis, and concept work, not medical advice or certified medical software under EU MDR / BfArM regulations.
-- German-first research context with English metadata for international discoverability.
+- Research, analysis, and concept work, not medical advice or certified medical devices under EU MDR (2017/745) or BfArM regulations.
+- German-first research and regulatory context with English metadata for international discoverability.
+- Strict local-first architecture without cloud dependencies or telemetric data leakage.
+
+## Ecosystem & Sister Organizations
+
+- open-bricks: https://github.com/open-bricks (Open-source software umbrella & showcase)
+- ellmos-ai: https://github.com/ellmos-ai (AI agent infrastructure & runtime frameworks)
+- file-bricks: https://github.com/file-bricks (Desktop file management & privacy tools)
+- doc-bricks: https://github.com/doc-bricks (Document processing & media systems)
+- dev-bricks: https://github.com/dev-bricks (Developer tools, test environments & CLI tooling)
+- research-line: https://github.com/research-line (Open science & mathematical physics)
+- biotec-line: https://github.com/biotec-line (Bioinformatics & genotype tools)
+- assistassets-ai: https://github.com/assistassets-ai (Local financial analytics & evidence review)
+- entertain-and-more: https://github.com/entertain-and-more (Games, RPG & media tools)
+- um-bruch: https://github.com/um-bruch (Health policy analysis & civic tech)
+- lukisch: https://github.com/lukisch (Developer profile & flagship showcase)
 
 ## Search Phrases
 
@@ -55,6 +75,7 @@ German prescribing transparency research
 um-bruch multiaxial diagnostic system
 DSM-5-TR ICD-11 ICF documentation prototype
 public-interest location based civic tech Next.js
+LOCUTERRA municipal digital commons PWA
 um-bruch open-source Forschungssoftware
 um-bruch public-interest health policy research
 um-bruch github organization profile llms.txt

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / Web
+node_modules/
+.next/
+out/
+dist/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+.vscode/
+.idea/

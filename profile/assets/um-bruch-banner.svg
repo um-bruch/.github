@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04181c"/>
+      <stop offset="50%" stop-color="#08282e"/>
+      <stop offset="100%" stop-color="#031215"/>
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="teal-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="cyan-amber-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#4ade80"/>
+    </linearGradient>
+    <linearGradient id="border-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14b8a6" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Background Pattern -->
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#2dd4bf" stroke-width="1" stroke-opacity="0.04"/>
+    </pattern>
+
+    <!-- Drop Shadows & Glow Filters -->
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="340" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="16" fill="url(#grid)"/>
+
+  <!-- Outer Border -->
+  <rect x="2" y="2" width="1196" height="336" rx="14" fill="none" stroke="url(#border-glow)" stroke-width="2"/>
+
+  <!-- Ambient Glow Elements -->
+  <circle cx="160" cy="170" r="140" fill="#14b8a6" opacity="0.09" filter="url(#soft-glow)"/>
+  <circle cx="1060" cy="170" r="140" fill="#0284c7" opacity="0.07" filter="url(#soft-glow)"/>
+
+  <!-- Visual Icon / Logo Container (Left) -->
+  <g transform="translate(60, 60)" filter="url(#shadow)">
+    <!-- Outer Container -->
+    <rect x="0" y="0" width="220" height="220" rx="24" fill="#072026" stroke="#134e4a" stroke-width="2"/>
+    <rect x="10" y="10" width="200" height="200" rx="18" fill="#082b33" stroke="#115e59" stroke-width="1" stroke-dasharray="5,5"/>
+
+    <!-- Geometric Motif: Network Nodes & Caduceus/Prescription Cross Synergy -->
+    <!-- Central Hexagon / Node Base -->
+    <polygon points="110,48 160,78 160,138 110,168 60,138 60,78" fill="none" stroke="#2dd4bf" stroke-width="2.5" stroke-opacity="0.4"/>
+    <polygon points="110,62 148,85 148,131 110,154 72,131 72,85" fill="#0f3d47" stroke="#5eead4" stroke-width="1.5"/>
+
+    <!-- Pulse Lines & Cross -->
+    <path d="M 85 108 L 135 108 M 110 83 L 110 133" stroke="#2dd4bf" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="110" cy="108" r="6" fill="#facc15"/>
+
+    <!-- Network Satellite Nodes -->
+    <circle cx="60" cy="78" r="7" fill="#14b8a6" stroke="#5eead4" stroke-width="1.5"/>
+    <circle cx="160" cy="78" r="7" fill="#38bdf8" stroke="#7dd3fc" stroke-width="1.5"/>
+    <circle cx="160" cy="138" r="7" fill="#34d399" stroke="#86efac" stroke-width="1.5"/>
+    <circle cx="60" cy="138" r="7" fill="#f59e0b" stroke="#fde68a" stroke-width="1.5"/>
+    <circle cx="110" cy="48" r="7" fill="#a78bfa" stroke="#c4b5fd" stroke-width="1.5"/>
+    <circle cx="110" cy="168" r="7" fill="#06b6d4" stroke="#67e8f9" stroke-width="1.5"/>
+
+    <!-- Connecting Pathway Waves -->
+    <path d="M 40 188 Q 110 170 180 188" fill="none" stroke="#2dd4bf" stroke-width="2" stroke-dasharray="3,3" opacity="0.6"/>
+  </g>
+
+  <!-- Typography & Content Area (Right) -->
+  <g transform="translate(320, 0)">
+    <!-- Top Pill: Independent Think Tank & Research Lab -->
+    <g transform="translate(0, 56)">
+      <rect width="320" height="28" rx="6" fill="#0f3d47" stroke="#2dd4bf" stroke-width="1.2"/>
+      <text x="160" y="18" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="11.5" fill="#5eead4" letter-spacing="1.5">INDEPENDENT THINK TANK &amp; LAB</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="142" font-family="sans-serif" font-weight="900" font-size="56" fill="url(#cyan-amber-glow)" letter-spacing="-1.5px">Um:bruch</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="180" font-family="sans-serif" font-weight="600" font-size="20" fill="#ccfbf1" letter-spacing="-0.2px">Health-System Analysis &amp; Civic Technology</text>
+    <text x="0" y="206" font-family="sans-serif" font-weight="400" font-size="14.5" fill="#94a3b8">Statutory prescribing transparency, rare disease pathways, psychiatric diagnostics &amp; civic commons.</text>
+
+    <!-- Bottom Badges / Feature Pills -->
+    <g transform="translate(0, 238)">
+      <!-- Pill 1: Prescribing Transparency -->
+      <g transform="translate(0, 0)">
+        <rect width="195" height="34" rx="8" fill="#072b31" stroke="#2dd4bf" stroke-width="1.5"/>
+        <text x="97" y="21" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="12" fill="#5eead4">&#x2695;&#xFE0F; Prescribing Transparency</text>
+      </g>
+
+      <!-- Pill 2: Rare Disease Graphs -->
+      <g transform="translate(207, 0)">
+        <rect width="180" height="34" rx="8" fill="#072b31" stroke="#2dd4bf" stroke-width="1.5"/>
+        <text x="90" y="21" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="12" fill="#5eead4">&#x1F9EC; Pathway Graphs</text>
+      </g>
+
+      <!-- Pill 3: Civic Tech & Commons -->
+      <g transform="translate(399, 0)">
+        <rect width="175" height="34" rx="8" fill="#072b31" stroke="#2dd4bf" stroke-width="1.5"/>
+        <text x="87" y="21" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="12" fill="#5eead4">&#x1F3DB;&#xFE0F; Civic Commons</text>
+      </g>
+
+      <!-- Pill 4: Local-First Privacy -->
+      <g transform="translate(586, 0)">
+        <rect width="165" height="34" rx="8" fill="#072b31" stroke="#2dd4bf" stroke-width="1.5"/>
+        <text x="82" y="21" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="12" fill="#5eead4">&#x1F512; Local-First &amp; Open</text>
+      </g>
+    </g>
+  </g>
+</svg>
