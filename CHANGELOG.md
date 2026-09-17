@@ -2,6 +2,13 @@
 
 All notable changes to the `um-bruch` organization profile and shared community files will be documented in this file.
 
+## [1.1.1] - 2026-09-17
+
+### Live Repository Index Verification
+- **Repository Index Refresh:** Re-verified the six public, active, non-forked repositories against `gh api orgs/um-bruch/repos --paginate` on 2026-09-17.
+- **Push Metadata Updated:** Updated `verordnungsampel` from 2026-08-20 to its live `pushed_at` date 2026-09-13; all other documented push dates were unchanged.
+- **Index Parity:** Synchronized the verification date across the root README, both profile READMEs, and `llms.txt` without changing repository descriptions or adding a parallel register.
+
 ## [1.1.0] - 2026-09-10
 
 ### Maintenance, Discoverability, Visual Identity & Parity Sync
