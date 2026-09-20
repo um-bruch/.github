@@ -1,7 +1,6 @@
 """Parity, inventory, and health contract tests for um-bruch organization profile."""
 
 import re
-import xml.etree.ElementTree as ET
 from pathlib import Path
 import pytest
 
@@ -43,12 +42,9 @@ def test_files_exist_and_non_empty(file_contents):
     for rel_path, text in file_contents.items():
         assert len(text) > 300, f"File {rel_path} unexpectedly small ({len(text)} chars)"
 
-    banner = REPO_ROOT / "profile" / "assets" / "um-bruch-banner.svg"
-    assert banner.is_file(), "Missing um-bruch banner SVG"
-    assert banner.stat().st_size > 1000, "um-bruch banner SVG unexpectedly small"
-
-    # Verify XML validity of banner SVG
-    ET.parse(banner)
+    logo = REPO_ROOT / "profile" / "assets" / "um-bruch-logo.png"
+    assert logo.is_file(), "Missing um-bruch logo PNG"
+    assert logo.stat().st_size > 1000, "um-bruch logo PNG unexpectedly small"
 
 
 def test_markdown_fence_balance(file_contents):

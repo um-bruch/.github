@@ -2,6 +2,14 @@
 
 All notable changes to the `um-bruch` organization profile and shared community files will be documented in this file.
 
+## [1.1.2] - 2026-09-20
+
+### Brand Correction
+- **Reverted auto-generated header banner:** The generic SVG header banner introduced in 1.1.0 (`profile/assets/um-bruch-banner.svg`, teal/network-node motif) did not match Um:bruch's actual, human-curated design assets and has been removed.
+- **Restored curated logo:** Replaced it with `profile/assets/um-bruch-logo.png`, the existing Um:bruch letterhead logo, in both profile READMEs and the root README index.
+- **Test suite updated:** `tests/test_profile_parity.py` now checks for the PNG logo instead of validating the removed SVG.
+- **Root cause:** Automated profile-health run `GITHUBBOT_ORGA_README_MD_STARTSEITE_HEALTH` (2026-09-10) designed a new banner from scratch instead of reusing curated assets; see `profile/DESIGN-ASSETS.md`.
+
 ## [1.1.1] - 2026-09-17
 
 ### Live Repository Index Verification

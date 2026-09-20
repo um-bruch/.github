@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/um-bruch"><img src="assets/um-bruch-banner.svg" alt="Um:bruch Header Banner" width="100%" /></a>
+  <a href="https://github.com/um-bruch"><img src="assets/um-bruch-logo.png" alt="Um:bruch Logo" width="220" /></a>
 </p>
 
 <p align="center">

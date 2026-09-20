@@ -10,7 +10,7 @@ Dieses Repository pflegt die öffentliche GitHub-Startseite für [Um:bruch](http
 |---|---|
 | [`profile/README.md`](profile/README.md) | Sichtbares Organisationsprofil auf `github.com/um-bruch` (Internationale Fassung) |
 | [`profile/README_de.md`](profile/README_de.md) | Sichtbares Organisationsprofil auf `github.com/um-bruch` (Deutsche Fassung) |
-| [`profile/assets/um-bruch-banner.svg`](profile/assets/um-bruch-banner.svg) | Vektor-Header-Banner für das Organisationsprofil |
+| [`profile/assets/um-bruch-logo.png`](profile/assets/um-bruch-logo.png) | Kuratiertes Um:bruch-Logo für das Organisationsprofil |
 | [`llms.txt`](llms.txt) | Maschinenlesbarer Kurzkontext für Crawler, LLMs und Suchsysteme |
 | [`CHANGELOG.md`](CHANGELOG.md) | Versionshistorie und Pflegeprotokoll des Profils |
 | [`SECURITY.md`](SECURITY.md) | Organisationsweite Sicherheitsrichtlinie |
