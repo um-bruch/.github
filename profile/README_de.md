@@ -16,7 +16,7 @@
 
 # Um:bruch
 
-<!-- public-index-last-checked: 2026-09-17 -->
+<!-- public-index-last-checked: 2026-09-23 -->
 
 [🇩🇪 Deutsche Version](README_de.md) | [🇬🇧 English](README.md)
 
@@ -25,7 +25,7 @@
 Um:bruch veröffentlicht wissenschaftlich nachprüfbare Forschungsanalysen, offene gesundheitspolitische Daten, Positionspapiere und praktische local-first Software-Prototypen. Unsere Arbeit schlägt die Brücke zwischen Verordnungsregelwerken im deutschen Gesundheitssystem (AM-RL, G-BA, PRISCUS 2.0, Praxisbesonderheiten), medizinischen Wissensgraphen für Seltene Erkrankungen, multiaxialen psychiatrischen Dokumentationsmodellen (DSM-5-TR, ICD-11, ICF) und ortsbasierten digitalen Gemeingütern für Kommunen.
 
 > [!NOTE]
-> **Öffentlicher Navigationsindex:** Aktualisiert und verifiziert gegen die Live-GitHub-API am **17. September 2026**. Alle 6 in `um-bruch` aktiven öffentlichen Repositories (5 Forschungs-/Civic-Projekte plus 1 zentrales Profil-Repository) sind hier vollständig erfasst.
+> **Öffentlicher Navigationsindex:** Aktualisiert und verifiziert gegen die Live-GitHub-API am **23. September 2026**. Alle 6 in `um-bruch` aktiven öffentlichen Repositories (5 Forschungs-/Civic-Projekte plus 1 zentrales Profil-Repository) sind hier vollständig erfasst.
 
 > [!TIP]
 > **Local-First & Datensparsam:** Sämtliche Software-Prototypen von Um:bruch arbeiten lokal auf dem Rechner der Anwendenden ohne erzwungene Cloud-Dienste, Telemetrie oder Benutzer-Tracking. Datenschutz und offene, nachvollziehbare Forschung sind unverrückbare Grundprinzipien.
@@ -99,16 +99,16 @@ graph TD
 
 ## Öffentliches Repository-Verzeichnis
 
-Verifiziert gegen die Live-GitHub-API am **17.09.2026**: 6 öffentliche Repositories insgesamt (5 Forschungs- & Software-Projekte plus 1 zentrales Organisationsprofil).
+Verifiziert gegen die Live-GitHub-API am **23.09.2026**: 6 öffentliche Repositories insgesamt (5 Forschungs- & Software-Projekte plus 1 zentrales Organisationsprofil).
 
 | Repository | Tech-Stack & Lizenz | Beschreibung & Besonderheiten | Suchbegriffe | Letzter Public Push |
 |---|---|---|---|---|
-| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | Python 3.10+, PySide6, SQLite, PWA · GPL-3.0 | Local-First Verordnungs- und Budget-Ampelsystem für das deutsche Gesundheitswesen. Gleicht ICD-10-GM / ATC Paare gegen AM-RL, G-BA Beschlüsse, PRISCUS 2.0 und Heilmittelbudgets ab. | `VerordnungsAmpel`, `AM-RL`, `G-BA`, `PRISCUS 2.0`, `Heilmittelkatalog`, `ICD-10-GM ATC Prüfung`, `Verordnungsregress`, `Praxisbesonderheiten` | **13.09.2026** |
+| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | Python 3.10+, PySide6, SQLite, PWA · GPL-3.0 | Local-First Verordnungs- und Budget-Ampelsystem für das deutsche Gesundheitswesen. Gleicht ICD-10-GM / ATC Paare gegen AM-RL, G-BA Beschlüsse, PRISCUS 2.0 und Heilmittelbudgets ab. | `VerordnungsAmpel`, `AM-RL`, `G-BA`, `PRISCUS 2.0`, `Heilmittelkatalog`, `ICD-10-GM ATC Prüfung`, `Verordnungsregress`, `Praxisbesonderheiten` | **20.09.2026** |
 | [locuterra](https://github.com/um-bruch/locuterra) | TypeScript, React, Next.js, TailwindCSS, PWA · MIT | Open-Source-Konzept und interaktiver Next.js-Demonstrator für ein gemeinwohlorientiertes, ortsbasiertes soziales Netzwerk und digitale Gemeingüter für Kommunen mit synthetischen Grüntal-Modelldaten. | `LOCUTERRA`, `Civic Tech`, `digitale Gemeingüter`, `ortsbasiertes Netzwerk`, `Next.js PWA`, `Kommunalsoftware`, `Bürgerbeteiligung` | **25.08.2026** |
 | [system-medicine](https://github.com/um-bruch/system-medicine) | Python 3.10+, PySide6, SQLite, NetworkX · MIT | Forschungsprototyp für funktionale biomedizinische Wissensgraphen, Differentialdiagnostik bei Seltenen Erkrankungen und Ausschlusslogik. Dauerhafter DOI: [10.5281/zenodo.20101507](https://doi.org/10.5281/zenodo.20101507). | `Systemmedizin`, `biomedizinischer Wissensgraph`, `Seltene Erkrankungen Differentialdiagnose`, `Ausschlusslogik`, `Graphentheorie Medizin` | **21.08.2026** |
 | [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | TeX, Python 3.10+, Streamlit, Flask, SQLite · MIT | 6-Achsen-Dokumentationsprototyp (Forschungssoftware) mit DSM-5-TR, ICD-11, ICF, HiTOP, Streamlit-Arbeitsbereich und Flask-Screening-Testcenter. Dauerhafter DOI: [10.5281/zenodo.18736725](https://doi.org/10.5281/zenodo.18736725). | `multiaxiale Diagnostik`, `DSM-5-TR ICD-11 ICF`, `Psychiatrie Dokumentation Prototyp`, `HiTOP dimensionale Diagnostik`, `Streamlit Medizininformatik` | **05.08.2026** |
 | [regressangst](https://github.com/um-bruch/regressangst) | Markdown, LaTeX, Research Data · CC BY 4.0 | Working Paper ST-001 zu Regressangst im deutschen Gesundheitswesen, Verordnungsregressen, Transparenzdefiziten und dem PP-003 Regressportal-Konzept. | `Regressangst`, `Verordnungsregress`, `Wirtschaftlichkeitsprüfung`, `Gesundheitspolitik Transparenz`, `Arzneimittelregress`, `Kassenarzt` | **27.07.2026** |
-| [`.github`](https://github.com/um-bruch/.github) | Markdown, GFM, YAML, `llms.txt`, pytest | Zentrales Organisationsprofil, Community-Dateien, Contract-Testsuite, llms.txt Kontext und Ökosystem-Auffindbarkeitsindex. | `um-bruch`, `Organisationsprofil`, `llms.txt`, `Repository-Verzeichnis`, `Think Tank Gesundheitspolitik` | **10.09.2026** |
+| [`.github`](https://github.com/um-bruch/.github) | Markdown, GFM, YAML, `llms.txt`, pytest | Zentrales Organisationsprofil, Community-Dateien, Contract-Testsuite, llms.txt Kontext und Ökosystem-Auffindbarkeitsindex. | `um-bruch`, `Organisationsprofil`, `llms.txt`, `Repository-Verzeichnis`, `Think Tank Gesundheitspolitik` | **20.09.2026** |
 
 ---
 
@@ -186,4 +186,4 @@ Um:bruch arbeitet im Verbund mit einem Netzwerk aus Open-Science-Initiativen, De
 - **Impressum & Kontakt:** [um-bruch.org/impressum](https://um-bruch.org/impressum/)
 - **Dauerhafte Zenodo-DOIs:** [system-medicine (10.5281/zenodo.20101507)](https://doi.org/10.5281/zenodo.20101507) | [multiaxial-diagnostic-system (10.5281/zenodo.18736725)](https://doi.org/10.5281/zenodo.18736725)
 
-<!-- last-checked: 2026-09-17 -->
+<!-- last-checked: 2026-09-23 -->

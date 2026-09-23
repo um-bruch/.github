@@ -16,7 +16,7 @@
 
 # Um:bruch
 
-<!-- public-index-last-checked: 2026-09-17 -->
+<!-- public-index-last-checked: 2026-09-23 -->
 
 [🇬🇧 English](README.md) | [🇩🇪 Deutsche Version](README_de.md)
 
@@ -25,7 +25,7 @@
 Um:bruch publishes reproducible research analyses, open policy data, working papers, and practical local-first software prototypes. Our public work bridges statutory prescribing regulations in the German healthcare system (AM-RL, G-BA, PRISCUS 2.0, Praxisbesonderheiten), medical knowledge graphs for rare diseases, multiaxial psychiatric documentation models (DSM-5-TR, ICD-11, ICF), and location-based digital commons for municipalities.
 
 > [!NOTE]
-> **Public Navigation Index:** Refreshed and verified against live GitHub API metadata on **2026-09-17**. Every public repository active in `um-bruch` (5 research/civic applications plus 1 profile repository) is fully indexed and mapped here.
+> **Public Navigation Index:** Refreshed and verified against live GitHub API metadata on **2026-09-23**. Every public repository active in `um-bruch` (5 research/civic applications plus 1 profile repository) is fully indexed and mapped here.
 
 > [!TIP]
 > **Local-First & Data-Parsimonious:** All software prototypes developed by Um:bruch operate locally on the user's machine without mandatory cloud dependencies, telemetry, or user tracking. Data privacy and reproducible open science are fundamental design invariants.
@@ -99,16 +99,16 @@ graph TD
 
 ## Public Repository Directory
 
-Verified against the live GitHub API on **2026-09-17**: 6 public repositories in total (5 research & software repositories plus 1 central organization profile).
+Verified against the live GitHub API on **2026-09-23**: 6 public repositories in total (5 research & software repositories plus 1 central organization profile).
 
 | Repository | Tech Stack & License | Description & Highlights | Discovery Terms | Last Public Push |
 |---|---|---|---|---|
-| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | Python 3.10+, PySide6, SQLite, PWA · GPL-3.0 | Local-first prescribing compliance & budget traffic-light system for statutory health insurance in Germany. Validates ICD-10-GM / ATC pairs against AM-RL, G-BA decisions, PRISCUS 2.0, and Heilmittelkatalog budgets. | `VerordnungsAmpel`, `AM-RL`, `G-BA`, `PRISCUS 2.0`, `Heilmittelkatalog`, `ICD-10-GM ATC checker`, `German prescribing rules`, `Praxisbesonderheiten` | **2026-09-13** |
+| [verordnungsampel](https://github.com/um-bruch/verordnungsampel) | Python 3.10+, PySide6, SQLite, PWA · GPL-3.0 | Local-first prescribing compliance & budget traffic-light system for statutory health insurance in Germany. Validates ICD-10-GM / ATC pairs against AM-RL, G-BA decisions, PRISCUS 2.0, and Heilmittelkatalog budgets. | `VerordnungsAmpel`, `AM-RL`, `G-BA`, `PRISCUS 2.0`, `Heilmittelkatalog`, `ICD-10-GM ATC checker`, `German prescribing rules`, `Praxisbesonderheiten` | **2026-09-20** |
 | [locuterra](https://github.com/um-bruch/locuterra) | TypeScript, React, Next.js, TailwindCSS, PWA · MIT | Open-source concept and interactive Next.js demonstrator for a public-interest, location-based civic social network and digital commons for municipalities with synthetic district demo data (*Grüntal*). | `LOCUTERRA`, `civic tech`, `municipal digital commons`, `location-based social network`, `Next.js PWA`, `local community platform`, `civic engagement` | **2026-08-25** |
 | [system-medicine](https://github.com/um-bruch/system-medicine) | Python 3.10+, PySide6, SQLite, NetworkX · MIT | Research-only functional pathway medical knowledge graph for rare-disease differential diagnosis research, pathway exclusion logic, and biomedical graph reasoning. Permanent DOI: [10.5281/zenodo.20101507](https://doi.org/10.5281/zenodo.20101507). | `systems medicine`, `functional pathway knowledge graph`, `rare disease differential diagnosis`, `pathway exclusion logic`, `biomedical graph reasoning` | **2026-08-21** |
 | [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | TeX, Python 3.10+, Streamlit, Flask, SQLite · MIT | Research-use-only 6-axis psychiatric documentation prototype referencing DSM-5-TR, ICD-11, ICF, HiTOP, Streamlit diagnostic workspace, and Flask screening testcenter. Permanent DOI: [10.5281/zenodo.18736725](https://doi.org/10.5281/zenodo.18736725). | `multiaxial diagnostic system`, `DSM-5-TR ICD-11 ICF`, `psychiatric documentation prototype`, `HiTOP dimensional diagnostics`, `Streamlit medical informatics` | **2026-08-05** |
 | [regressangst](https://github.com/um-bruch/regressangst) | Markdown, LaTeX, Research Data · CC BY 4.0 | Working-paper repository for ST-001 on German statutory prescribing-audit recourse anxiety, health-care system transparency, economic disincentives, and the PP-003 Regress portal concept. | `Regressangst`, `prescribing audit recourse anxiety`, `German healthcare transparency`, `Wirtschaftlichkeitsprüfung`, `Arzneimittelregress`, `Kassenarzt` | **2026-07-27** |
-| [`.github`](https://github.com/um-bruch/.github) | Markdown, GFM, YAML, `llms.txt`, pytest | Central organization profile, community health files, contract test suite, llms.txt context, and ecosystem discoverability index. | `um-bruch`, `organization profile`, `llms.txt`, `public repository directory`, `health policy think tank` | **2026-09-10** |
+| [`.github`](https://github.com/um-bruch/.github) | Markdown, GFM, YAML, `llms.txt`, pytest | Central organization profile, community health files, contract test suite, llms.txt context, and ecosystem discoverability index. | `um-bruch`, `organization profile`, `llms.txt`, `public repository directory`, `health policy think tank` | **2026-09-20** |
 
 ---
 
@@ -186,4 +186,4 @@ Um:bruch collaborates within a federated ecosystem of local-first software tools
 - **Imprint & Legal:** [um-bruch.org/impressum](https://um-bruch.org/impressum/)
 - **Permanent Zenodo DOIs:** [system-medicine (10.5281/zenodo.20101507)](https://doi.org/10.5281/zenodo.20101507) | [multiaxial-diagnostic-system (10.5281/zenodo.18736725)](https://doi.org/10.5281/zenodo.18736725)
 
-<!-- last-checked: 2026-09-17 -->
+<!-- last-checked: 2026-09-23 -->

@@ -1,4 +1,4 @@
-## Last-checked: 2026-09-17
+## Last-checked: 2026-09-23
 
 # Um:bruch
 
@@ -18,7 +18,7 @@ Researchers, health-policy professionals, medical informatics specialists, civic
 ## Primary Public Repositories
 
 - https://github.com/um-bruch/verordnungsampel
-  Local-first prescribing compliance & budget traffic-light system for statutory health insurance in Germany. Validates ICD-10-GM / ATC pairs against AM-RL, G-BA decisions, PRISCUS 2.0, and Heilmittelkatalog budgets. Python 3.10+, PySide6, SQLite, PWA companion. Last public push: 2026-09-13.
+  Local-first prescribing compliance & budget traffic-light system for statutory health insurance in Germany. Validates ICD-10-GM / ATC pairs against AM-RL, G-BA decisions, PRISCUS 2.0, and Heilmittelkatalog budgets. Python 3.10+, PySide6, SQLite, PWA companion. Last public push: 2026-09-20.
 
 - https://github.com/um-bruch/locuterra
   Open-source concept and interactive Next.js demonstrator for a public-interest, location-based civic social network and digital commons for municipalities with synthetic district demo data (Grüntal). TypeScript, React, Next.js, TailwindCSS, PWA. Last public push: 2026-08-25.
@@ -33,7 +33,7 @@ Researchers, health-policy professionals, medical informatics specialists, civic
   Working-paper and concept material on Regressangst, statutory prescribing-audit recourse anxiety, healthcare policy transparency, and the PP-003 Regress portal concept in the German healthcare system. Last public push: 2026-07-27.
 
 - https://github.com/um-bruch/.github
-  Organization profile, public repository directory, community health files, automated parity test suite, and machine-readable llms.txt context for search systems and LLM crawlers. Last public push: 2026-09-10.
+  Organization profile, public repository directory, community health files, automated parity test suite, and machine-readable llms.txt context for search systems and LLM crawlers. Last public push: 2026-09-20.
 
 ## Positioning & Guardrails
 

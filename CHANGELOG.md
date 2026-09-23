@@ -2,6 +2,13 @@
 
 All notable changes to the `um-bruch` organization profile and shared community files will be documented in this file.
 
+## [1.1.3] - 2026-09-23
+
+### Live Repository Index Verification
+- **Repository Index Refresh:** Re-verified all six public, active, non-forked repositories against the live GitHub API on 2026-09-23.
+- **Push Metadata Updated:** Updated `verordnungsampel` and `.github` to their live 2026-09-20 public push dates; all other repository entries remained unchanged.
+- **Index Parity:** Synchronized the verification date across the root README, both profile READMEs, `llms.txt`, and the parity tests without changing the curated Um:bruch logo assets.
+
 ## [1.1.2] - 2026-09-20
 
 ### Brand Correction

@@ -63,12 +63,12 @@ def test_public_repo_inventory(file_contents):
 
 
 def test_check_timestamp_parity(file_contents):
-    """Verify that verification timestamps are synchronized to 2026-09-17."""
-    assert "2026-09-17" in file_contents["README.md"]
-    assert "<!-- last-checked: 2026-09-17 -->" in file_contents["profile/README.md"]
-    assert "<!-- last-checked: 2026-09-17 -->" in file_contents["profile/README_de.md"]
-    assert "## Last-checked: 2026-09-17" in file_contents["llms.txt"]
-    assert "2026-09-17" in file_contents["CHANGELOG.md"]
+    """Verify that verification timestamps are synchronized to 2026-09-23."""
+    assert "2026-09-23" in file_contents["README.md"]
+    assert "<!-- last-checked: 2026-09-23 -->" in file_contents["profile/README.md"]
+    assert "<!-- last-checked: 2026-09-23 -->" in file_contents["profile/README_de.md"]
+    assert "## Last-checked: 2026-09-23" in file_contents["llms.txt"]
+    assert "2026-09-23" in file_contents["CHANGELOG.md"]
 
 
 def test_push_timestamp_parity(file_contents):
@@ -77,10 +77,10 @@ def test_push_timestamp_parity(file_contents):
         text = file_contents[filename]
         assert "2026-08-25" in text or "25.08.2026" in text, f"Missing locuterra push date in {filename}"
         assert "2026-08-21" in text or "21.08.2026" in text, f"Missing system-medicine push date in {filename}"
-        assert "2026-09-13" in text or "13.09.2026" in text, f"Missing verordnungsampel push date in {filename}"
+        assert "2026-09-20" in text or "20.09.2026" in text, f"Missing verordnungsampel push date in {filename}"
         assert "2026-08-05" in text or "05.08.2026" in text, f"Missing multiaxial push date in {filename}"
         assert "2026-07-27" in text or "27.07.2026" in text, f"Missing regressangst push date in {filename}"
-        assert "2026-09-10" in text or "10.09.2026" in text, f"Missing .github push date in {filename}"
+        assert "2026-09-20" in text or "20.09.2026" in text, f"Missing .github push date in {filename}"
 
 
 def test_ecosystem_cross_linking(file_contents):
