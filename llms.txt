@@ -33,7 +33,7 @@ Researchers, health-policy professionals, medical informatics specialists, civic
   Working-paper and concept material on Regressangst, statutory prescribing-audit recourse anxiety, healthcare policy transparency, and the PP-003 Regress portal concept in the German healthcare system. Last public push: 2026-07-27.
 
 - https://github.com/um-bruch/.github
-  Organization profile, public repository directory, community health files, automated parity test suite, and machine-readable llms.txt context for search systems and LLM crawlers. Last public push: 2026-09-20.
+  Organization profile, public repository directory, community health files, automated parity test suite, and machine-readable llms.txt context for search systems and LLM crawlers. Last public push: 2026-09-23.
 
 ## Positioning & Guardrails
 

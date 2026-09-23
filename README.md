@@ -23,7 +23,7 @@ Geprüft am **2026-09-23** gegen die Live-Organisation `um-bruch`. Öffentlich, 
 
 | Repository | Branch | Letzter Push | Rolle & Abdeckung |
 |---|---:|---:|---|
-| [`.github`](https://github.com/um-bruch/.github) | `main` | 2026-09-20 | Organisationsprofil, Community-Kontext, `llms.txt`, Testsuite und Startseite |
+| [`.github`](https://github.com/um-bruch/.github) | `main` | 2026-09-23 | Organisationsprofil, Community-Kontext, `llms.txt`, Testsuite und Startseite |
 | [`locuterra`](https://github.com/um-bruch/locuterra) | `master` | 2026-08-25 | Civic-Tech-Konzept und Next.js-Demonstrator für ortsbezogene Gemeinwohlkommunikation & PWA |
 | [`system-medicine`](https://github.com/um-bruch/system-medicine) | `main` | 2026-08-21 | Forschungsprototyp für funktionale medizinische Wissensgraphen, Differentialdiagnostik & Seltene Erkrankungen |
 | [`verordnungsampel`](https://github.com/um-bruch/verordnungsampel) | `main` | 2026-09-20 | Research-use Softwareentwurf für lokale ICD-10-GM-/ATC-Prüfungen gegen deutsche Verordnungsregelwerke |
