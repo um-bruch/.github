@@ -2,6 +2,16 @@
 
 All notable changes to the `um-bruch` organization profile and shared community files will be documented in this file.
 
+## [1.1.4] - 2026-09-30
+
+### Live Repository Index Verification & Privacy Leak Hardening
+- **Repository Index Refresh:** Re-verified all six public, active, non-forked repositories against the live GitHub API on 2026-09-30. All repositories are 100% accounted for and active.
+- **Push Metadata Updated:** Updated `.github` to the 2026-09-30 profile-refresh push date across all indices; `verordnungsampel` (2026-09-20), `locuterra` (2026-08-25), `system-medicine` (2026-08-21), `multiaxial-diagnostic-system` (2026-08-05), and `regressangst` (2026-07-27) verified against live API.
+- **Zero-Leak Security Hardening:** Eliminated unlisted internal and private repository references from the ecosystem cross-reference tables in both profile READMEs.
+- **Ecosystem Sister Alignment:** Updated `ellmos-ai` key repo link to `n8n-manager-mcp` and `research-line` key repo link to `functional-stability-theory` and `abc-hct`. Added `biotec-line` to contract test suite ecosystem coverage.
+- **Verification Badges:** Integrated `Verified-2026--09--30-blue` (English) and `Geprüft-2026--09--30-blue` (German) shields badges into profile headers.
+- **Contract Tests Expanded:** Added `test_zero_private_repo_leak` and `test_verification_badges` to `tests/test_profile_parity.py` (10/10 passed).
+
 ## [1.1.3] - 2026-09-23
 
 ### Live Repository Index Verification

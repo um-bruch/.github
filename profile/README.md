@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/um-bruch/.github/blob/main/profile/README.md"><img src="https://img.shields.io/badge/Public_Repos-6-0d9488?style=flat-square&logo=github" alt="Public Repositories" /></a>
+  <a href="https://github.com/um-bruch/.github"><img src="https://img.shields.io/badge/Verified-2026--09--30-blue?style=flat-square" alt="Verified 2026-09-30" /></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Umbrella-open--bricks-teal?style=flat-square&logo=github" alt="Umbrella: open-bricks" /></a>
   <a href="https://um-bruch.org"><img src="https://img.shields.io/badge/Think_Tank-um--bruch.org-008080?style=flat-square" alt="Website: um-bruch.org" /></a>
   <a href="https://github.com/um-bruch"><img src="https://img.shields.io/badge/Focus-Health_Policy_%26_Civic_Tech-emerald?style=flat-square" alt="Focus: Health Policy & Civic Tech" /></a>
@@ -16,7 +17,7 @@
 
 # Um:bruch
 
-<!-- public-index-last-checked: 2026-09-23 -->
+<!-- public-index-last-checked: 2026-09-30 -->
 
 [🇬🇧 English](README.md) | [🇩🇪 Deutsche Version](README_de.md)
 
@@ -25,7 +26,7 @@
 Um:bruch publishes reproducible research analyses, open policy data, working papers, and practical local-first software prototypes. Our public work bridges statutory prescribing regulations in the German healthcare system (AM-RL, G-BA, PRISCUS 2.0, Praxisbesonderheiten), medical knowledge graphs for rare diseases, multiaxial psychiatric documentation models (DSM-5-TR, ICD-11, ICF), and location-based digital commons for municipalities.
 
 > [!NOTE]
-> **Public Navigation Index:** Refreshed and verified against live GitHub API metadata on **2026-09-23**. Every public repository active in `um-bruch` (5 research/civic applications plus 1 profile repository) is fully indexed and mapped here.
+> **Public Navigation Index:** Refreshed and verified against live GitHub API metadata on **2026-09-30**. Every public repository active in `um-bruch` (5 research/civic applications plus 1 profile repository) is fully indexed and mapped here.
 
 > [!TIP]
 > **Local-First & Data-Parsimonious:** All software prototypes developed by Um:bruch operate locally on the user's machine without mandatory cloud dependencies, telemetry, or user tracking. Data privacy and reproducible open science are fundamental design invariants.
@@ -99,7 +100,7 @@ graph TD
 
 ## Public Repository Directory
 
-Verified against the live GitHub API on **2026-09-23**: 6 public repositories in total (5 research & software repositories plus 1 central organization profile).
+Verified against the live GitHub API on **2026-09-30**: 6 public repositories in total (5 research & software repositories plus 1 central organization profile).
 
 | Repository | Tech Stack & License | Description & Highlights | Discovery Terms | Last Public Push |
 |---|---|---|---|---|
@@ -108,7 +109,7 @@ Verified against the live GitHub API on **2026-09-23**: 6 public repositories in
 | [system-medicine](https://github.com/um-bruch/system-medicine) | Python 3.10+, PySide6, SQLite, NetworkX · MIT | Research-only functional pathway medical knowledge graph for rare-disease differential diagnosis research, pathway exclusion logic, and biomedical graph reasoning. Permanent DOI: [10.5281/zenodo.20101507](https://doi.org/10.5281/zenodo.20101507). | `systems medicine`, `functional pathway knowledge graph`, `rare disease differential diagnosis`, `pathway exclusion logic`, `biomedical graph reasoning` | **2026-08-21** |
 | [multiaxial-diagnostic-system](https://github.com/um-bruch/multiaxial-diagnostic-system) | TeX, Python 3.10+, Streamlit, Flask, SQLite · MIT | Research-use-only 6-axis psychiatric documentation prototype referencing DSM-5-TR, ICD-11, ICF, HiTOP, Streamlit diagnostic workspace, and Flask screening testcenter. Permanent DOI: [10.5281/zenodo.18736725](https://doi.org/10.5281/zenodo.18736725). | `multiaxial diagnostic system`, `DSM-5-TR ICD-11 ICF`, `psychiatric documentation prototype`, `HiTOP dimensional diagnostics`, `Streamlit medical informatics` | **2026-08-05** |
 | [regressangst](https://github.com/um-bruch/regressangst) | Markdown, LaTeX, Research Data · CC BY 4.0 | Working-paper repository for ST-001 on German statutory prescribing-audit recourse anxiety, health-care system transparency, economic disincentives, and the PP-003 Regress portal concept. | `Regressangst`, `prescribing audit recourse anxiety`, `German healthcare transparency`, `Wirtschaftlichkeitsprüfung`, `Arzneimittelregress`, `Kassenarzt` | **2026-07-27** |
-| [`.github`](https://github.com/um-bruch/.github) | Markdown, GFM, YAML, `llms.txt`, pytest | Central organization profile, community health files, contract test suite, llms.txt context, and ecosystem discoverability index. | `um-bruch`, `organization profile`, `llms.txt`, `public repository directory`, `health policy think tank` | **2026-09-23** |
+| [`.github`](https://github.com/um-bruch/.github) | Markdown, GFM, YAML, `llms.txt`, pytest | Central organization profile, community health files, contract test suite, llms.txt context, and ecosystem discoverability index. | `um-bruch`, `organization profile`, `llms.txt`, `public repository directory`, `health policy think tank` | **2026-09-30** |
 
 ---
 
@@ -166,13 +167,13 @@ Um:bruch collaborates within a federated ecosystem of local-first software tools
 | Organization | Domain Focus | Key Repositories & Role |
 |---|---|---|
 | [open-bricks](https://github.com/open-bricks) | Umbrella / Dachorganisation | Open-source software umbrella, ecosystem catalog & showcase |
-| [ellmos-ai](https://github.com/ellmos-ai) | AI Agent Infrastructure | `bach`, `rinnsal`, `MarbleRun`, `skills`, `n8n-workflow-manager` |
+| [ellmos-ai](https://github.com/ellmos-ai) | AI Agent Infrastructure | `bach`, `rinnsal`, `MarbleRun`, `skills`, `n8n-manager-mcp` |
 | [file-bricks](https://github.com/file-bricks) | Desktop File Tools | `ProFiler`, `ExplorerPro`, `ProSync`, `AmpelClip`, `ProfiPrompt` |
 | [doc-bricks](https://github.com/doc-bricks) | Document & Media Systems | `DokuReader`, `MediaBrain`, `UniversalInvoiceMail`, `CleanMarkdown` |
 | [dev-bricks](https://github.com/dev-bricks) | Developer & Code Tools | `DevCenter`, `CodeBox`, `pythonbox`, `app-rotator`, `apiprober` |
-| [research-line](https://github.com/research-line) | Open Science & Mathematical Physics | `crm-cosmology`, `fst-nash`, `epstein-network`, `rh-even-dominance` |
+| [research-line](https://github.com/research-line) | Open Science & Mathematical Physics | `functional-stability-theory`, `crm-cosmology`, `rh-even-dominance`, `abc-hct`, `fst-nash` |
 | [biotec-line](https://github.com/biotec-line) | Bioinformatics & Genomics | `VFDistiller`, `genotype-to-vcf` |
-| [assistassets-ai](https://github.com/assistassets-ai) | Local Financial Analytics | `FinancialProof`, `DEV_FullAssistantHub_SUITE` |
+| [assistassets-ai](https://github.com/assistassets-ai) | Local Financial Analytics | `FinancialProof` |
 | [entertain-and-more](https://github.com/entertain-and-more) | Games, RPG & Media Tools | `ChatAndChess`, `rpx`, `KlangpultLight` |
 | [um-bruch](https://github.com/um-bruch) | Health Policy & Civic Tech | `verordnungsampel`, `locuterra`, `system-medicine`, `regressangst` |
 | [lukisch](https://github.com/lukisch) | Developer Profile | Flagship developer showcase & cross-system coordination |
@@ -186,4 +187,4 @@ Um:bruch collaborates within a federated ecosystem of local-first software tools
 - **Imprint & Legal:** [um-bruch.org/impressum](https://um-bruch.org/impressum/)
 - **Permanent Zenodo DOIs:** [system-medicine (10.5281/zenodo.20101507)](https://doi.org/10.5281/zenodo.20101507) | [multiaxial-diagnostic-system (10.5281/zenodo.18736725)](https://doi.org/10.5281/zenodo.18736725)
 
-<!-- last-checked: 2026-09-23 -->
+<!-- last-checked: 2026-09-30 -->

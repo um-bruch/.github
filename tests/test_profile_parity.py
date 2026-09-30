@@ -63,12 +63,12 @@ def test_public_repo_inventory(file_contents):
 
 
 def test_check_timestamp_parity(file_contents):
-    """Verify that verification timestamps are synchronized to 2026-09-23."""
-    assert "2026-09-23" in file_contents["README.md"]
-    assert "<!-- last-checked: 2026-09-23 -->" in file_contents["profile/README.md"]
-    assert "<!-- last-checked: 2026-09-23 -->" in file_contents["profile/README_de.md"]
-    assert "## Last-checked: 2026-09-23" in file_contents["llms.txt"]
-    assert "2026-09-23" in file_contents["CHANGELOG.md"]
+    """Verify that verification timestamps are synchronized to 2026-09-30."""
+    assert "2026-09-30" in file_contents["README.md"]
+    assert "<!-- last-checked: 2026-09-30 -->" in file_contents["profile/README.md"]
+    assert "<!-- last-checked: 2026-09-30 -->" in file_contents["profile/README_de.md"]
+    assert "## Last-checked: 2026-09-30" in file_contents["llms.txt"]
+    assert "2026-09-30" in file_contents["CHANGELOG.md"]
 
 
 def test_push_timestamp_parity(file_contents):
@@ -80,7 +80,7 @@ def test_push_timestamp_parity(file_contents):
         assert "2026-09-20" in text or "20.09.2026" in text, f"Missing verordnungsampel push date in {filename}"
         assert "2026-08-05" in text or "05.08.2026" in text, f"Missing multiaxial push date in {filename}"
         assert "2026-07-27" in text or "27.07.2026" in text, f"Missing regressangst push date in {filename}"
-        assert "2026-09-23" in text or "23.09.2026" in text, f"Missing .github push date in {filename}"
+        assert "2026-09-30" in text or "30.09.2026" in text, f"Missing .github push date in {filename}"
 
 
 def test_ecosystem_cross_linking(file_contents):
@@ -94,6 +94,7 @@ def test_ecosystem_cross_linking(file_contents):
         "file-bricks",
         "entertain-and-more",
         "assistassets-ai",
+        "biotec-line",
         "um-bruch",
         "lukisch",
     ]
@@ -122,3 +123,27 @@ def test_no_forbidden_local_paths(file_contents):
     for filename, text in file_contents.items():
         for pattern in forbidden:
             assert pattern not in text, f"Forbidden local path '{pattern}' leaked into {filename}"
+
+
+def test_zero_private_repo_leak(file_contents):
+    """Ensure internal or private repositories are never mentioned in public profile docs."""
+    forbidden_repos = [
+        "epstein-network",
+        "DEV_FullAssistantHub_SUITE",
+        "terminpilot",
+        "UpToday",
+        "PrivacyMailDesk",
+        "routinika",
+        "mediplaner",
+        "economic-sanctions-coercive-diplomacy",
+        "prompt-archaeology-casestudy2",
+    ]
+    for filename, text in file_contents.items():
+        for repo in forbidden_repos:
+            assert repo not in text, f"Private/internal repo '{repo}' leaked into {filename}"
+
+
+def test_verification_badges(file_contents):
+    """Ensure verification badges are present in profile READMEs."""
+    assert "Verified-2026--09--30-blue" in file_contents["profile/README.md"]
+    assert "Geprüft-2026--09--30-blue" in file_contents["profile/README_de.md"]
