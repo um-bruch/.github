@@ -1,6 +1,6 @@
 # um-bruch/.github
 
-<!-- public-index-last-checked: 2026-09-30 -->
+<!-- public-index-last-checked: 2026-10-20 -->
 
 Dieses Repository pflegt die öffentliche GitHub-Startseite für [Um:bruch](https://github.com/um-bruch), den unabhängigen Think Tank und das Entwicklungslabor für Gesundheitsversorgung, Verordnungstransparenz, Civic Tech, offene Analysen und gemeinwohlorientierte Software.
 
@@ -19,11 +19,11 @@ Dieses Repository pflegt die öffentliche GitHub-Startseite für [Um:bruch](http
 
 ## Public Repository Directory
 
-Geprüft am **2026-09-30** gegen die Live-Organisation `um-bruch`. Öffentlich, aktiv und nicht geforkt sind 6 Repositories:
+Geprüft am **2026-10-20** gegen die Live-Organisation `um-bruch`. Öffentlich, aktiv und nicht geforkt sind 6 Repositories:
 
 | Repository | Branch | Letzter Push | Rolle & Abdeckung |
 |---|---:|---:|---|
-| [`.github`](https://github.com/um-bruch/.github) | `main` | 2026-09-30 | Organisationsprofil, Community-Kontext, `llms.txt`, Testsuite und Startseite |
+| [`.github`](https://github.com/um-bruch/.github) | `main` | 2026-10-20 | Organisationsprofil, Community-Kontext, `llms.txt`, Testsuite und Startseite |
 | [`locuterra`](https://github.com/um-bruch/locuterra) | `master` | 2026-08-25 | Civic-Tech-Konzept und Next.js-Demonstrator für ortsbezogene Gemeinwohlkommunikation & PWA |
 | [`system-medicine`](https://github.com/um-bruch/system-medicine) | `main` | 2026-08-21 | Forschungsprototyp für funktionale medizinische Wissensgraphen, Differentialdiagnostik & Seltene Erkrankungen |
 | [`verordnungsampel`](https://github.com/um-bruch/verordnungsampel) | `main` | 2026-09-20 | Research-use Softwareentwurf für lokale ICD-10-GM-/ATC-Prüfungen gegen deutsche Verordnungsregelwerke |
@@ -51,7 +51,7 @@ Diese Startseite ist der öffentliche Einstieg für:
 - Neue öffentliche Repositories müssen in `profile/README.md`, `profile/README_de.md`, `llms.txt` und im Public Repository Directory ergänzt werden.
 - Private oder interne Repositories werden nicht öffentlich genannt.
 - Medizinische und diagnostische Repositories bleiben als Forschungs-, Analyse- oder Konzeptsoftware markiert, nicht als Beratung oder Medizinprodukt.
-- Vor Commits muss die Testsuite mit `pytest tests/` und der Mermaid-Linter mit `python _tools/lint_mermaid.py` fehlerfrei durchlaufen.
+- Vor Commits muss `pytest tests/` fehlerfrei durchlaufen. Mermaid-Diagramme bei inhaltlichen Änderungen in der GitHub-Vorschau prüfen.
 - Deutsche Endnutzertexte verwenden echte Umlaute.
 
-<!-- public-index-last-checked: 2026-09-30 -->
+<!-- public-index-last-checked: 2026-10-20 -->

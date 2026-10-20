@@ -2,6 +2,13 @@
 
 All notable changes to the `um-bruch` organization profile and shared community files will be documented in this file.
 
+## [Unreleased]
+
+### Public index and discovery refresh
+- Reconciled the public repository directory and last-push dates with the live GitHub API on 2026-10-20; all six public, active, non-fork repositories remain indexed.
+- Synchronized verification dates and badges across the English and German profile READMEs, root README, machine-readable index, and parity tests.
+- Removed a documented Mermaid-linter command that is not present in this repository; the README now points to the available test suite and GitHub preview for diagram edits.
+
 ## [1.1.4] - 2026-09-30
 
 ### Live Repository Index Verification & Privacy Leak Hardening
