@@ -8,6 +8,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 PARITY_FILES = [
     REPO_ROOT / "README.md",
+    REPO_ROOT / "README_de.md",
     REPO_ROOT / "profile" / "README.md",
     REPO_ROOT / "profile" / "README_de.md",
     REPO_ROOT / "llms.txt",
@@ -63,12 +64,12 @@ def test_public_repo_inventory(file_contents):
 
 
 def test_check_timestamp_parity(file_contents):
-    """Verify that verification timestamps are synchronized to 2026-10-20."""
-    assert "2026-10-20" in file_contents["README.md"]
-    assert "<!-- last-checked: 2026-10-20 -->" in file_contents["profile/README.md"]
-    assert "<!-- last-checked: 2026-10-20 -->" in file_contents["profile/README_de.md"]
-    assert "## Last-checked: 2026-10-20" in file_contents["llms.txt"]
-    assert "2026-10-20" in file_contents["CHANGELOG.md"]
+    """Verify that verification timestamps are synchronized to 2026-11-01."""
+    assert "2026-11-01" in file_contents["README.md"]
+    assert "<!-- last-checked: 2026-11-01 -->" in file_contents["profile/README.md"]
+    assert "<!-- last-checked: 2026-11-01 -->" in file_contents["profile/README_de.md"]
+    assert "## Last-checked: 2026-11-01" in file_contents["llms.txt"]
+    assert "2026-11-01" in file_contents["CHANGELOG.md"]
 
 
 def test_push_timestamp_parity(file_contents):
@@ -77,10 +78,10 @@ def test_push_timestamp_parity(file_contents):
         text = file_contents[filename]
         assert "2026-08-25" in text or "25.08.2026" in text, f"Missing locuterra push date in {filename}"
         assert "2026-08-21" in text or "21.08.2026" in text, f"Missing system-medicine push date in {filename}"
-        assert "2026-09-20" in text or "20.09.2026" in text, f"Missing verordnungsampel push date in {filename}"
+        assert "2026-10-25" in text or "25.10.2026" in text, f"Missing verordnungsampel push date in {filename}"
         assert "2026-08-05" in text or "05.08.2026" in text, f"Missing multiaxial push date in {filename}"
-        assert "2026-07-27" in text or "27.07.2026" in text, f"Missing regressangst push date in {filename}"
-        assert "2026-10-20" in text or "20.10.2026" in text, f"Missing .github push date in {filename}"
+        assert "2026-10-25" in text or "25.10.2026" in text, f"Missing regressangst push date in {filename}"
+        assert "2026-11-01" in text or "20.10.2026" in text, f"Missing .github push date in {filename}"
 
 
 def test_ecosystem_cross_linking(file_contents):
@@ -145,5 +146,5 @@ def test_zero_private_repo_leak(file_contents):
 
 def test_verification_badges(file_contents):
     """Ensure verification badges are present in profile READMEs."""
-    assert "Verified-2026--10--20-blue" in file_contents["profile/README.md"]
-    assert "Geprüft-2026--10--20-blue" in file_contents["profile/README_de.md"]
+    assert "Verified-2026--11--01-blue" in file_contents["profile/README.md"]
+    assert "Geprüft-2026--11--01-blue" in file_contents["profile/README_de.md"]

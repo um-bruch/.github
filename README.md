@@ -1,6 +1,6 @@
 # um-bruch/.github
 
-<!-- public-index-last-checked: 2026-10-20 -->
+<!-- public-index-last-checked: 2026-11-01 -->
 
 [English documentation](README.md) | [Deutsche Dokumentation](README_de.md)
 
@@ -22,16 +22,16 @@ This repository maintains the public GitHub landing page for [Um:bruch](https://
 
 ## Public Repository Directory
 
-Checked on **2026-10-20** against the live `um-bruch` organization. There are 6 public, active, non-forked repositories:
+Checked on **2026-11-01** against the live `um-bruch` organization. There are 6 public, active, non-forked repositories:
 
 | Repository | Branch | Last push | Role and coverage |
 |---|---:|---:|---|
-| [`.github`](https://github.com/um-bruch/.github) | `main` | 2026-10-20 | Organization profile, community context, `llms.txt`, test suite, and landing page |
+| [`.github`](https://github.com/um-bruch/.github) | `main` | 2026-11-01 | Organization profile, community context, `llms.txt`, test suite, and landing page |
 | [`locuterra`](https://github.com/um-bruch/locuterra) | `master` | 2026-08-25 | Civic-tech concept and Next.js demonstrator for location-based public-interest communication and PWA |
 | [`system-medicine`](https://github.com/um-bruch/system-medicine) | `main` | 2026-08-21 | Research prototype for functional medical knowledge graphs, differential diagnosis, and rare diseases |
-| [`verordnungsampel`](https://github.com/um-bruch/verordnungsampel) | `main` | 2026-09-20 | Research-use software draft for local ICD-10-GM / ATC checks against German prescribing rule sets |
+| [`verordnungsampel`](https://github.com/um-bruch/verordnungsampel) | `main` | 2026-10-25 | Research-use software draft for local ICD-10-GM / ATC checks against German prescribing rule sets |
 | [`multiaxial-diagnostic-system`](https://github.com/um-bruch/multiaxial-diagnostic-system) | `master` | 2026-08-05 | Six-axis documentation prototype with DSM-5-TR, ICD-11, ICF, Streamlit, and Flask Testcenter |
-| [`regressangst`](https://github.com/um-bruch/regressangst) | `master` | 2026-07-27 | Working Paper ST-001 on recourse anxiety, prescribing recoupments, transparency, and the PP-003 portal concept |
+| [`regressangst`](https://github.com/um-bruch/regressangst) | `master` | 2026-10-25 | Working Paper ST-001 on recourse anxiety, prescribing recoupments, transparency, and the PP-003 portal concept |
 
 ## Discoverability
 
@@ -57,4 +57,4 @@ This landing page is the public entry point for:
 - Before committing, run `pytest tests/` and require it to pass. Preview Mermaid diagrams on GitHub after content changes.
 - German end-user text must use actual umlauts.
 
-<!-- public-index-last-checked: 2026-10-20 -->
+<!-- public-index-last-checked: 2026-11-01 -->
