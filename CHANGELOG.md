@@ -6,7 +6,7 @@ All notable changes to the `um-bruch` organization profile and shared community 
 
 ### Public index and discovery refresh (2026-11-11)
 - Re-verified the six public, active, non-forked repositories against the live GitHub API; all six remain indexed across the English and German landing pages, organization profile, and `llms.txt`.
-- Updated current push metadata for `locuterra` (2026-10-31), `verordnungsampel` (2026-10-30), and `.github` (2026-11-11), and synchronized verification badges and date-parity assertions.
+- Updated current push metadata for `locuterra` (2026-10-31), `verordnungsampel` (2026-10-30), and `.github` (2026-11-10 UTC), and synchronized verification badges and date-parity assertions.
 
 ### Public index and discovery refresh (2026-11-01)
 - Re-verified complete public repository directory and live push metadata against the GitHub API on 2026-11-01; all six public, active, non-forked repositories remain 100% accounted for and active.

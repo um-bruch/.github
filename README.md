@@ -26,7 +26,7 @@ Checked on **2026-11-11** against the live `um-bruch` organization. There are 6 
 
 | Repository | Branch | Last push | Role and coverage |
 |---|---:|---:|---|
-| [`.github`](https://github.com/um-bruch/.github) | `main` | 2026-11-11 | Organization profile, community context, `llms.txt`, test suite, and landing page |
+| [`.github`](https://github.com/um-bruch/.github) | `main` | 2026-11-10 | Organization profile, community context, `llms.txt`, test suite, and landing page |
 | [`locuterra`](https://github.com/um-bruch/locuterra) | `master` | 2026-10-31 | Civic-tech concept and Next.js demonstrator for location-based public-interest communication and PWA |
 | [`system-medicine`](https://github.com/um-bruch/system-medicine) | `main` | 2026-08-21 | Research prototype for functional medical knowledge graphs, differential diagnosis, and rare diseases |
 | [`verordnungsampel`](https://github.com/um-bruch/verordnungsampel) | `main` | 2026-10-30 | Research-use software draft for local ICD-10-GM / ATC checks against German prescribing rule sets |

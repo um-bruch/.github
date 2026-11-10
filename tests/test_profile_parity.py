@@ -81,7 +81,7 @@ def test_push_timestamp_parity(file_contents):
         assert "2026-10-30" in text or "30.10.2026" in text, f"Missing verordnungsampel push date in {filename}"
         assert "2026-08-05" in text or "05.08.2026" in text, f"Missing multiaxial push date in {filename}"
         assert "2026-10-25" in text or "25.10.2026" in text, f"Missing regressangst push date in {filename}"
-        assert "2026-11-11" in text or "11.11.2026" in text, f"Missing .github push date in {filename}"
+        assert "2026-11-10" in text or "10.11.2026" in text, f"Missing .github push date in {filename}"
 
 
 def test_ecosystem_cross_linking(file_contents):
