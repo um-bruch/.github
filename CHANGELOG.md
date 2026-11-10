@@ -4,6 +4,17 @@ All notable changes to the `um-bruch` organization profile and shared community 
 
 ## [Unreleased]
 
+### Public index and discovery refresh (2026-11-11)
+- Re-verified the six public, active, non-forked repositories against the live GitHub API; all six remain indexed across the English and German landing pages, organization profile, and `llms.txt`.
+- Updated current push metadata for `locuterra` (2026-10-31), `verordnungsampel` (2026-10-30), and `.github` (2026-11-10 UTC), and synchronized verification badges and date-parity assertions.
+
+### Public index and discovery refresh (2026-11-01)
+- Re-verified complete public repository directory and live push metadata against the GitHub API on 2026-11-01; all six public, active, non-forked repositories remain 100% accounted for and active.
+- Updated live push timestamps across all documentation surfaces: `verordnungsampel` (2026-10-25, bilingual documentation refresh), `regressangst` (2026-10-25, bilingual documentation and working paper ST-001 alignment), and `.github` (2026-11-01 profile refresh).
+- Synchronized verification badges (`Verified-2026--11--01-blue`, `Geprüft-2026--11--01-blue`) and audit comments across `profile/README.md`, `profile/README_de.md`, root `README.md`, `README_de.md`, `llms.txt`, and automated parity tests.
+- Hardened parity contract tests in `tests/test_profile_parity.py` for 2026-11-01 date consistency and push timestamp verification.
+
+
 ### Public index and discovery refresh
 - Reconciled the public repository directory and last-push dates with the live GitHub API on 2026-10-20; all six public, active, non-fork repositories remain indexed.
 - Synchronized verification dates and badges across the English and German profile READMEs, root README, machine-readable index, and parity tests.

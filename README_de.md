@@ -1,6 +1,6 @@
 # um-bruch/.github
 
-<!-- public-index-last-checked: 2026-10-20 -->
+<!-- public-index-last-checked: 2026-11-11 -->
 
 [English documentation](README.md) | [Deutsche Dokumentation](README_de.md)
 
@@ -22,16 +22,16 @@ Dieses Repository pflegt die öffentliche GitHub-Startseite für [Um:bruch](http
 
 ## Öffentlicher Repository-Index
 
-Geprüft am **2026-10-20** gegen die Live-Organisation `um-bruch`. Öffentlich, aktiv und nicht geforkt sind 6 Repositories:
+Geprüft am **11.11.2026** gegen die Live-Organisation `um-bruch`. Öffentlich, aktiv und nicht geforkt sind 6 Repositories:
 
 | Repository | Branch | Letzter Push | Rolle und Abdeckung |
 |---|---:|---:|---|
-| [`.github`](https://github.com/um-bruch/.github) | `main` | 2026-10-20 | Organisationsprofil, Community-Kontext, `llms.txt`, Testsuite und Startseite |
-| [`locuterra`](https://github.com/um-bruch/locuterra) | `master` | 2026-08-25 | Civic-Tech-Konzept und Next.js-Demonstrator für ortsbezogene Gemeinwohlkommunikation und PWA |
+| [`.github`](https://github.com/um-bruch/.github) | `main` | 10.11.2026 | Organisationsprofil, Community-Kontext, `llms.txt`, Testsuite und Startseite |
+| [`locuterra`](https://github.com/um-bruch/locuterra) | `master` | 2026-10-31 | Civic-Tech-Konzept und Next.js-Demonstrator für ortsbezogene Gemeinwohlkommunikation und PWA |
 | [`system-medicine`](https://github.com/um-bruch/system-medicine) | `main` | 2026-08-21 | Forschungsprototyp für funktionale medizinische Wissensgraphen, Differenzialdiagnostik und seltene Erkrankungen |
-| [`verordnungsampel`](https://github.com/um-bruch/verordnungsampel) | `main` | 2026-09-20 | Research-use-Softwareentwurf für lokale ICD-10-GM-/ATC-Prüfungen gegen deutsche Verordnungsregelwerke |
+| [`verordnungsampel`](https://github.com/um-bruch/verordnungsampel) | `main` | 30.10.2026 | Research-use-Softwareentwurf für lokale ICD-10-GM-/ATC-Prüfungen gegen deutsche Verordnungsregelwerke |
 | [`multiaxial-diagnostic-system`](https://github.com/um-bruch/multiaxial-diagnostic-system) | `master` | 2026-08-05 | Sechs-Achsen-Dokumentationsprototyp mit DSM-5-TR, ICD-11, ICF, Streamlit und Flask-Testcenter |
-| [`regressangst`](https://github.com/um-bruch/regressangst) | `master` | 2026-07-27 | Working Paper ST-001 zu Regressangst, Verordnungsregressen, Transparenz und dem PP-003-Portalkonzept |
+| [`regressangst`](https://github.com/um-bruch/regressangst) | `master` | 25.10.2026 | Working Paper ST-001 zu Regressangst, Verordnungsregressen, Transparenz und dem PP-003-Portalkonzept |
 
 ## Auffindbarkeit
 
@@ -57,4 +57,4 @@ Diese Startseite ist der öffentliche Einstieg für:
 - Vor Commits muss `pytest tests/` fehlerfrei durchlaufen. Mermaid-Diagramme bei inhaltlichen Änderungen in der GitHub-Vorschau prüfen.
 - Deutsche Endnutzertexte verwenden echte Umlaute.
 
-<!-- public-index-last-checked: 2026-10-20 -->
+<!-- public-index-last-checked: 2026-11-11 -->
