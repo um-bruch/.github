@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/um-bruch/.github/blob/main/profile/README_de.md"><img src="https://img.shields.io/badge/Öffentliche_Repos-6-0d9488?style=flat-square&logo=github" alt="Öffentliche Repositories" /></a>
-  <a href="https://github.com/um-bruch/.github"><img src="https://img.shields.io/badge/Geprüft-2026--11--01-blue?style=flat-square" alt="Geprüft 2026-10-20" /></a>
+  <a href="https://github.com/um-bruch/.github"><img src="https://img.shields.io/badge/Geprüft-2026--11--01-blue?style=flat-square" alt="Geprüft 2026-11-01" /></a>
   <a href="https://github.com/open-bricks"><img src="https://img.shields.io/badge/Dach--Org-open--bricks-teal?style=flat-square&logo=github" alt="Dach-Organisation: open-bricks" /></a>
   <a href="https://um-bruch.org"><img src="https://img.shields.io/badge/Think_Tank-um--bruch.org-008080?style=flat-square" alt="Webseite: um-bruch.org" /></a>
   <a href="https://github.com/um-bruch"><img src="https://img.shields.io/badge/Schwerpunkt-Gesundheitspolitik_%26_Civic_Tech-emerald?style=flat-square" alt="Schwerpunkt: Gesundheitspolitik & Civic Tech" /></a>
