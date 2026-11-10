@@ -64,11 +64,11 @@ def test_public_repo_inventory(file_contents):
 
 
 def test_check_timestamp_parity(file_contents):
-    """Verify that verification timestamps are synchronized to 2026-11-01."""
-    assert "2026-11-01" in file_contents["README.md"]
-    assert "<!-- last-checked: 2026-11-01 -->" in file_contents["profile/README.md"]
-    assert "<!-- last-checked: 2026-11-01 -->" in file_contents["profile/README_de.md"]
-    assert "## Last-checked: 2026-11-01" in file_contents["llms.txt"]
+    """Verify that verification timestamps are synchronized to 2026-11-11."""
+    assert "2026-11-11" in file_contents["README.md"]
+    assert "<!-- last-checked: 2026-11-11 -->" in file_contents["profile/README.md"]
+    assert "<!-- last-checked: 2026-11-11 -->" in file_contents["profile/README_de.md"]
+    assert "## Last-checked: 2026-11-11" in file_contents["llms.txt"]
     assert "2026-11-01" in file_contents["CHANGELOG.md"]
 
 
@@ -76,12 +76,12 @@ def test_push_timestamp_parity(file_contents):
     """Verify that latest push timestamps match repository live metadata."""
     for filename in ["README.md", "profile/README.md", "profile/README_de.md", "llms.txt", "CHANGELOG.md"]:
         text = file_contents[filename]
-        assert "2026-08-25" in text or "25.08.2026" in text, f"Missing locuterra push date in {filename}"
+        assert "2026-10-31" in text or "31.10.2026" in text, f"Missing locuterra push date in {filename}"
         assert "2026-08-21" in text or "21.08.2026" in text, f"Missing system-medicine push date in {filename}"
-        assert "2026-10-25" in text or "25.10.2026" in text, f"Missing verordnungsampel push date in {filename}"
+        assert "2026-10-30" in text or "30.10.2026" in text, f"Missing verordnungsampel push date in {filename}"
         assert "2026-08-05" in text or "05.08.2026" in text, f"Missing multiaxial push date in {filename}"
         assert "2026-10-25" in text or "25.10.2026" in text, f"Missing regressangst push date in {filename}"
-        assert "2026-11-01" in text or "01.11.2026" in text, f"Missing .github push date in {filename}"
+        assert "2026-11-11" in text or "11.11.2026" in text, f"Missing .github push date in {filename}"
 
 
 def test_ecosystem_cross_linking(file_contents):
@@ -146,5 +146,5 @@ def test_zero_private_repo_leak(file_contents):
 
 def test_verification_badges(file_contents):
     """Ensure verification badges are present in profile READMEs."""
-    assert "Verified-2026--11--01-blue" in file_contents["profile/README.md"]
-    assert "Geprüft-2026--11--01-blue" in file_contents["profile/README_de.md"]
+    assert "Verified-2026--11--11-blue" in file_contents["profile/README.md"]
+    assert "Geprüft-2026--11--11-blue" in file_contents["profile/README_de.md"]
